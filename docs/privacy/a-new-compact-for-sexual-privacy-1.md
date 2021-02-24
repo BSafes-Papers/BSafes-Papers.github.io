@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Introduction 
-parent: A New Compact for Sexual Privacy 
+parent: § A New Compact for Sexual Privacy 
 grand_parent: Privacy 
 nav_order: 100
 ---
@@ -79,7 +79,7 @@ Sexual privacy is foundational for our personhood and essential for our ability 
 
 Private-sector surveillance of intimate information strips individuals of their ability to decide who learns about their miscarriages, breakups, HIV infections, sexual assaults, and nude images. It undermines people’s selfesteem as they see themselves as intimate parts and not as whole selves. When companies categorize and rank people as rape sufferers or escort users and nothing more, they give those individuals fractured identities. People’s self-expression is chilled. Fearful of unwanted surveillance, people stop using dating apps, fertility trackers, or digital assistants. They refrain from browsing sites devoted to gender experimentation, sexuality, and reproductive health.
 
-The harm can be profound. Intimate data reveals people’s physical and emotional vulnerabilities, which firms exploit to their advantage.<sup>19</sup> When intimate data is leaked or disclosed to hackers and criminals, individuals face reputational ruin, blackmail, and extortion.<sup>20</sup> When commercial hiring
+The harm can be profound. Intimate data reveals people’s physical and emotional vulnerabilities, which firms exploit to their advantage.<sup>19</sup> When intimate data is leaked or disclosed to hackers and criminals, individuals face reputational ruin, blackmail, and extortion.<sup>20</sup> When commercial hiring intelligence companies use intimate data to mine, rank, and rate, people may unfairly fail to obtain job interviews.<sup>21</sup> People’s insurance rates may rise because algorithms predict their need for expensive fertility treatments or gender reassignment surgeries.<sup>22</sup>
 
 ***
 <sup>15</sup> Id.
@@ -93,6 +93,44 @@ The harm can be profound. Intimate data reveals people’s physical and emotiona
 <sup>19</sup> See infra notes and accompanying text
 {: .fs-2}
 <sup>20</sup> Daniel J. Solove & Danielle Keats Citron, *Risk and Anxiety: A Theory of Data-Breach Harms*, 96 TEX. L. REV. 737, 739-45 (2018); Kate Fazzini, A*shley Madison Cyber-Breach, 5 Years Later, Users are Being Targeted with Sextortion Scams,* CNBC (January 31, 2020),
+{: .fs-2}
+https://www.cnbc.com/2020/01/31/ashley-madison-breach-from-2015-being-used-insextortion-scams.html.
+{: .fs-2}
+<sup>21</sup> Ifeoma Ajunwa & Daniel Greene, *Platforms at Work: Automated Hiring Platforms and Other New Intermediaries in the Organization of Work*, in WORK AND LABOR IN THE DIGITAL AGE, https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3248675; Mar Hicks, Hacking the Cis-tem, IEEE ANNALS OF THE HISTORY OF COMPUTING, vol. 41, 20 (Jan.-Mar 2019). https://ieeexplore.ieee.org/document/8634814. See generally SAFIYA NOBLE, ALGORITHMS OF OPPRESSION (2018).
+{: .fs-2}
+<sup>22</sup>See Jaden Urbi, “Some Transgender Drivers Are Being Kicked Off Uber’s App,” CNBC, August 8, 2018, https://www.cnbc.com/2018/08/08/transgender-uber-driversuspended-tech-oversight-facial-recognition.html; S.M. West, M. Whittaker & K. Crawford, DISCRIMINATING SYSTEMS: GENDER, RACE, AND POWER IN AI (April 2019), available at https://ainowinstitute.org/discriminatingsystems.pdf.
+{: .fs-2}
+***
+</div>
+
+
+These risks are not evenly distributed across society. Women and marginalized communities disproportionately bear the burden of private-sector surveillance of intimate life. For instance, the fem-tech market will have a disproportionate impact on women in healthcare and insurance market.<sup>23</sup> The majority of people appearing on sites devoted to revenge porn and deep fake sex videos are women and sexual minorities. For people with intersecting marginalized identities, the harm is compounded.<sup>24</sup> The denial of equal opportunity in the wake of sexual privacy invasions is why I called for the recognition of “cyber civil rights” more than a decade ago.<sup>25</sup>
+
+Despite the enormity of these potential harms, intimate information lacks meaningful legal protection. American law generally treats privacy as a consumer protection matter. It focuses on policing firms’ notice to consumers about their data practices and any deception concerning those practices. For the most part, the collection, use, storage, and sharing of intimate data is enabled by this approach rather than restricted by it. Tracking intimate data is not just permissible, it is viewed as normative.<sup>26</sup>
+
+This Article offers a new compact for the protection of intimate information. As a start, we need to revise our understanding of the privacy afforded intimate life. Treating sexual privacy as a consumer protection problem underestimates the interests at stake. The surveillance of intimate life matters not just because firms fail to provide notice or engage in deceptive practices but also because they undermine autonomy, dignity, intimacy, and equality. It matters because people’s crucial life opportunities, including employment, education, housing, insurance, professional certification, and self-expression, are on the line. It matters because civil rights and civil liberties hang in the balance.
+
+***
+<sup>23</sup> As discussed above, this is the explicit goal of fem-tech companies.
+{: .fs-2}
+<sup>24</sup> Joy Buolamwini & Timnit Gebru, “Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification,” in Proceedings of the 1st Conference on Fairness, Accountability and Transparency (New York, 2018), 77–91, http://proceedings.mlr.press/v81/buolamwini18a.html; *see also Citron, Sexual Privacy, supra* note; Mary Anne Franks, Democratic Surveillance, HARV. J. L. & TECH (2015).
+{: .fs-2}
+<sup>25</sup> Danielle Keats Citron, Cyber Civil Rights, 89 B.U. L. REV. 61 (2009).
+{: .fs-2}
+<sup>26</sup> Richards & Hartzog, supra note, at.
+{: .fs-2}
+***
+
+All personal data needs protection, but even more so for intimate information.<sup>27</sup> This approach aligns with the well-accepted approach to sensitive data that should apply to secure sexual privacy.<sup>28</sup> Intimate information should not be collected or processed without meaningful consent—knowing, voluntary, and express consent. Firms should not use personal data to infer intimate information, nor should they use intimate information to manipulate people to act against their interests. Firms should have obligations of loyalty to the intimate data that they handle. Available remedies should include injunctive relief ordering firms to stop processing intimate data until legal commitments are satisfied. Repeated violations can and should face the data death penalty—forbidding a firm’s handling of personal data now and in the future.<sup>29</sup>
+
+This Article has three parts. Part I provides a snapshot into the corporate surveillance of intimate life. It categorizes such surveillance into first-party data collection and third-party data collection. Part II highlights the damage corporate intimate surveillance causes to the values sexual privacy secures and the harm to human well-being it inflicts. It provides an overview of the legal landscape and the extent to which law is failing us. Part III offers a plan of action for the protection of intimate information. It situates privacy as a matter of civil rights and not just consumer protection. It provides guideposts for regulating the private sector’s surveillance of intimate information. It suggests affirmative obligations for firms in the collection, use, and storage of intimate data and the addition of injunctive relief.
+
+***
+<sup>27</sup> There is plenty of terrific scholarship on the contours of strong baseline privacy protections. *See* Neil Richards & Woodrow Hartzog, *The Pathologies of Consent*, 96 WASH. U. L. REV. (2019); Woodrow Hartzog, *The Inadequate, Invaluable Fair Information Practices,* 76 MD. L. REV. 952 (2017); Neil Richards & Woodrow Hartzog, *Taking Trust Seriously,* 19 STAN. TECH. L. REV. (2016); Woodrow Hartzog, *The Case Against Idealising Control*, 4 EUR. DATA PROTECTION REV. 423 (2018); Richards & Hartzog, supra note. Cameron Kerry has been thoughtfully exploring the various proposals for data privacy reform at the federal level. See, e.g., Cameron F. Kerry, Protecting Privacy in an AI-Driven World, Brookings Institute (February 10, 2020), https://www.brookings.edu/research/protecting-privacy-in-an-aidriven-world/; Cameron F. Kerry, https://www.lawfareblog.com/data-collectionstandards-privacy-legislation-proposed-language; Cameron F. Kerry, A Federal Privacy Law Could Do Better than California’s, L.A. Times (April 25, 2019), https://www.latimes.com/opinion/op-ed/la-oe-kerry-ccpa-data-privacy-laws20190425-story.html; https://www.brookings.edu/blog/techtank/2019/06/26/whydata-ownership-is-the-wrong-approach-to-protecting-privacy/;
+{: .fs-2}
+<sup>28</sup> Paul Ohm, *Sensitive Information*, 88 S. CAL. L. REV. 1125, 1128 (2015); Danielle Keats Citron, Reservoirs of Danger: *The Evolution of Public and Private Law at the Dawn of the Information Age*, 80 S. CAL. L. REV. 241 (2007).
+{: .fs-2}
+<sup>29</sup> Thanks to Woodrow Hartzog for suggesting the concept of the data death penalty to describe stop processing orders.
 {: .fs-2}
 ***
 </div>

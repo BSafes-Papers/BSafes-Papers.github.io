@@ -24,6 +24,7 @@ This is the mobile-friendly web version of the [original article](http://www.ccs
 {: .no_toc }
 
 Roman Dremliuga<sup>1</sup>  
+[Web Site](https://dataeconomyschool.com/cybersecurity)
 
 <sup>1</sup> School of law, Far Eastern Federal University, Vladivostok, Russia  
 
