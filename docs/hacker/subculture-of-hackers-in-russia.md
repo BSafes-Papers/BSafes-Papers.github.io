@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Subculture of Hackers in Russia 
+title: § Subculture of Hackers in Russia 
 parent: Hacker 
 nav_order: 9860409 
 ---
@@ -25,6 +25,7 @@ This is the mobile-friendly web version of the [original article](http://www.ccs
 
 Roman Dremliuga<sup>1</sup>  
 [Web Site](https://dataeconomyschool.com/cybersecurity)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4CslCODwaQM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <sup>1</sup> School of law, Far Eastern Federal University, Vladivostok, Russia  
 

@@ -3,7 +3,7 @@ layout: default
 title: I. UNDERSTANDING PRIVATE-SECTOR SURVEILLANCE OF INTIMATE LIFE 
 parent: § A New Compact for Sexual Privacy 
 grand_parent: Privacy 
-nav_order: 100
+nav_order: 200
 ---
 <style>
 .dont-break-out {
