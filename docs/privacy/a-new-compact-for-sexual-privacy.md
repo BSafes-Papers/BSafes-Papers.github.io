@@ -40,7 +40,7 @@ This is the mobile-friendly web version of the [original article](https://schola
 Professor of Law, Boston University School of Law; Vice President, Cyber Civil Rights Initiative; 2019 MacArthur Fellow. 
 [Twitter](https://twitter.com/daniellecitron?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F_qyLgMmiAk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/F_qyLgMmiAk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ### Boston University School of Law
 {: .no_toc }
 

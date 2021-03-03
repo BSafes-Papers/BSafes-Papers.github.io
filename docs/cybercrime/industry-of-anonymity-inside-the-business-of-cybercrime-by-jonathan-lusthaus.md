@@ -39,7 +39,7 @@ This is the mobile-friendly web version of the [original article](https://digita
 _Osgoode Hall Law School of York University_
 [Linkedin](https://ca.linkedin.com/public-profile/in/robert-van-de-mark?challengeId=AQG7RvSRLT076gAAAXfXNs7cPX-67mHx7009E57ZgnIxSvhFB4u5_8fCdeqsNH56o6TiKk91xD4tR2vt510JoZZKPq_uqrAw7g&submissionId=527a8aff-a7df-6616-be97-257965181804)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dcOq1jhT_1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/dcOq1jhT_1k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### This Book Review is brought to you for free and open access by the Journals at Osgoode Digital Commons. It has been accepted for inclusion in Osgoode Hall Law Journal by an authorized editor of Osgoode Digital Commons.
 {: .no_toc }  

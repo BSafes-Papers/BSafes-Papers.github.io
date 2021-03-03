@@ -35,7 +35,7 @@ This is the mobile-friendly web version of the [original article](https://digita
 J.D.Candidate, 2021, Villanova Charles Widger School of Law; B.A. 2014, BrownUnivesity. This Note is dedicated to my parents, Caren and Ron Borgolini, who have never stopped believing in me. I would additionally like to sincerely thank all members of the *Villanova Law Review* who provided thoughtful and invaluable feedback throughout the publication process.
 [Linkedin](https://www.linkedin.com/in/briana-borgolini-b53835128)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hkg3u3hKmrs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/hkg3u3hKmrs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 **Video: Introducing the Villanova University Charles Widger School of Law**
 
 #### This Note is brought to you for free and open access by Villanova University Charles Widger School of Law Digital Repository. It has been accepted for inclusion in Villanova Law Review by an authorized editor of Villanova University Charles Widger School of Law Digital Repository. 

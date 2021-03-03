@@ -2,7 +2,6 @@
 layout: default
 title: § A Post for Change - Social Media and the Unethical Dissemination of Nonconsensual Pornography 
 parent: Privacy 
-has_children: true
 nav_order: 979100000 
 ---
 <style>
@@ -36,7 +35,7 @@ This is the mobile-friendly web version of the [original article](https://reposi
 Cecilia Grimaldi is a J.D. student at University of California, Hastings College of the Law who will be graduating in May 2021. She would like to thank Professor Mark D’Argenio for his guidance and feedback on this article.
 [Linkedin](https://www.linkedin.com/in/cecilia-grimaldi-97752a113)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/i3qHE7VnFCM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/i3qHE7VnFCM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 **Video above is from Hastings Law Journal**
 #### This Article is brought to you for free and open access by the Law Journals at UC Hastings Scholarship Repository. It has been accepted for inclusion in Hastings Communications and Entertainment Law Journal by an authorized editor of UC Hastings Scholarship Repository. For more information, please contact wangangela@uchastings.edu. 
 {: .no_toc }  
