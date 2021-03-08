@@ -36,6 +36,8 @@ _University of Colorado Law School_, blake.reid@colorado.edu
 #### This Article is brought to you for free and open access by the Law School Journals at Digital Repository @ Maurer Law. It has been accepted for inclusion in Indiana Law Journal by an authorized editor of Digital Repository @ Maurer Law. For more information, please contact rvaughan@indiana.edu.
 {: .no_toc}
 
+*** 
+
 1. TOC
 {:toc}
 
