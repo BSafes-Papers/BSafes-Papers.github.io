@@ -24,6 +24,12 @@ This is the mobile-friendly web version of the [original article](https://www.re
 # Internet Architecture and Disability
 {: .no_toc }
 
+### Maurer School of Law: Indiana University, Digital Repository @ Maurer Law, Indiana Law Journal
+{: .no_toc }
+Volume 95 | Issue 2
+
+4-15-2020
+
 ## Blake Reid
 {: .no_toc }
 Associate Clinical Professor, Colorado Law, Director, Samuelson-Glushko Technology Law & Policy Clinic (TLPC), and Faculty Director, Silicon Flatirons Center. Affiliations listed for identification purposes only; this article reflects only my personal opinions and not necessarily those of my affiliated institutions or any of the TLPC’s clients. Thanks to Jose Moncada, Grayson Wells, and their colleagues at the *Indiana Law Journal* for their tireless editing work and helpful contributions, to Annemarie Bridy, Margot Kaminski, Paul Ohm, Sam Bagenstos, Jack Bernard, Brad Bernthal, Peter Blanck, Anna Spain Bradley, Chris Buccafusco, Sarah Burstein, Anupam Chander, Julie Cohen, Rick Collins, Rebecca Crootof, Doron Dorfman, Bryan Frye, Kristelia Garcia, Amy Griffin, Lakshman Guruswamy, Jennifer Hendricks, Meg Leta Jones, Daphne Keller, Craig Konnoth, Sarah Krakoff, Ben Levin, Jack Lerner, Clayton Lewis, Robin Malloy, Susan Nevelow Mart, Helen Norton, Aaron Perzanowski, Sloan Speck, Claude Stout, Karen Peltz Strauss, Harry Surden, Jason Schultz, Scott Skinner-Thompson, Amanda Levendowski, Christian Vogler, and Michael Waterstone for helpful feedback and conversations on this article, to Jim Anaya, Kristen Carpenter, Jane Thompson, Karen Selden, and Derek Kiernan-Johnson for helpful feedback on earlier iterations of this article, to Luke Ewing for able research assistance, to Sophie Galleher for helpful edits, and to Sara and Jonas Reid for their support.  
