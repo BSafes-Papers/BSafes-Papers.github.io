@@ -482,6 +482,15 @@ In June 2020, the Lawful Access to Encrypted Data (LAED) Act was introduced in t
 
 1. Young, A., & Yung, M. (1996). The Dark Side of Black-Box Cryptography, or: Should We Trust Capstone? In N. Koblitz (Ed.), *Advances in Cryptology* – CRYPTO ’96: *16th Annual International Cryptology Conference*, Santa Barbara, California, August 18–22 (pp.89-103). New York: Springer. Retrieved from https://www.researchgate.net/publication/225139661_The_Dark_Side_of_BlackBox_Cryptography_or_Should_We_Trust_Capstone
 
+1. Young, A., & Yung, M. (1997). Kleptography: Using Cryptography Against Cryptography. In W. Fumy (Ed.), *Advances in Cryptology* - EUROCRYPT’*97: International Conference on the Theory and Application of Cryptographic Techniques*, Konstanz, Germany, May 11-15 (pp.62-74). New York: SpringerVerlag. Retrieved from https://www.researchgate.net/publication/221348188_Kleptography_Using_Cryptography_Against_Cryptography
+
+1. Zetter, K. (2013, September 24). How a Crypto ’Backdoor’ Pitted the Tech World Against the NSA. *Wired Magazine*. Retrieved from https://www.wired.com/2013/09/nsabackdoor/
+
+1. Zimmermann, P. (n.d.). Philip Zimmermann. Retrieved from https://philzimmermann.com/EN/background/index.html
+
+1. Zimmermann, P. (1999). Why I Wrote PGP. Retrieved from https://www.philzimmermann.com/EN/essays/WhyIWrotePGP.html
+
+1. Zimmermann, P. (2001, June 5). PGP Marks its 10th Anniversary. Retrieved from http://www.philzimmermann.com/EN/news/PGP_10thAnniversary.html
 <table cellpadding="0" cellspacing="0">
 	<tbody>
 		<tr>

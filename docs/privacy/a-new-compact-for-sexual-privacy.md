@@ -3,7 +3,7 @@ layout: default
 title: § A New Compact for Sexual Privacy 
 parent: Privacy 
 has_children: true
-nav_order: 980063100 
+nav_order: 9800631 
 ---
 <style>
 .dont-break-out {

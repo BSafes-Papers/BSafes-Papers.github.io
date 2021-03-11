@@ -3,7 +3,7 @@ layout: default
 title: § Defending Democracy - Taking Stock of the Global Fight Against Digital Repression, Disinformation, and Election Insecurity  
 parent: Politics 
 has_children: true
-nav_order: 980010000 
+nav_order: 9800100 
 ---
 <style>
 .dont-break-out {
