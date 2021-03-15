@@ -48,7 +48,7 @@ The article excerpt below is an extract from Forbes’s website titled 'Someone 
 
 > I went to Equifax, Experian and Transunion, and you’re supposed to answer four security questions, which should be easy if it’s you: Which of these four addresses have you lived at? Which of these employers have you worked for? I couldn’t get to two of my reports because she had infiltrated my credit history to the point that her information overrode mine. 
 
-> *So then what did you do? *
+> *So then what did you do?*
 
 > That weekend, I placed a fraud alert on my credit reports, and I eventually froze them. With an alert, you get calls, and the next day I got multiple calls. I would get a call from Discover: Someone just called, it sounds fraudulent, you have a flag, did you just call? No.
 
@@ -60,7 +60,7 @@ The article excerpt below is an extract from Forbes’s website titled 'Someone 
 
 > The police department built a case against her, a warrant went out for her arrest, and a neighboring community arrested her. She initially did not plead guilty. So, we had to go through the municipal court, grand jury, and the grand jury indicted her, and then pretrial and trial. She eventually did plead guilty, but since it’s a non-violent felony, she did not serve jail time. She did community service, which is all the more infuriating, because identity theft is a revenue stream for criminals, and this outcome means it’s much easier to be a criminal of identity theft than a criminal manufacturing drugs.
 
-> *How have you been cleaning this up? *
+> *How have you been cleaning this up?*
 
 > All companies have different ways in which they have you prove that you are who you say you are. When you are a victim of identity theft, you are put in the position of having to prove who you are to a greater extent than the criminal had to get goods and services. You’re treated like you’re trying to get out of paying for something.
 

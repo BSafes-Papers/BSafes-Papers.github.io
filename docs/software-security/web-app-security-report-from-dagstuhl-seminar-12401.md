@@ -1,6 +1,6 @@
 ---
 layout: default
-title: § Web Application Security 
+title: § Web Application Security - Report from Dagstuhl Seminar 12401 
 parent: Software Security 
 nav_order: 988030100 
 ---
@@ -24,6 +24,8 @@ This is the mobile-friendly web version of the [original article](https://drops.
 Report from Dagstuhl Seminar 12401
 # Web Application Security 
 {: .no_toc }
+
+![Report from Dagstuhl Seminar 12401 - Web Application Security](https://statics.bsafes.com/images/papers/web-app-security-report-from-dagstuhl-seminar-12401.png)
 
 Edited by
 Lieven Desmet<sup>1</sup>, Martin Johns<sup>2</sup>, Benjamin Livshits<sup>3</sup>, and Andrei Sabelfeld<sup>4</sup>
@@ -56,10 +58,10 @@ Digital Object Identifier 10.4230/DagRep.2.10.1
 
 ## 1 Executive Summary
 
-*Lieven Desmet*
-*Martin Johns*
-*Benjamin Livshits*
-*Andrei Sabelfeld*
+*Lieven Desmet*  
+*Martin Johns*  
+*Benjamin Livshits*  
+*Andrei Sabelfeld*  
 
 The Dagstuhl seminar on *Web Application Security* aimed to bring researchers together in the field of web security, both from academia and industry. The seminar is a follow-up of the Dagstuhl Seminar 09141 on Web Application Security in 2009 [10, 9].
 
@@ -74,7 +76,7 @@ The inception of this Dagstuhl seminar was strongly inspired by the following em
 
 **Information-flow control.** Information-flow control specifies how sensitive data, possibly originating from multiple content providers in multiple trust domains, can be used in data aggregations, and client-side and server-side processing as is typically done in mashups. Challenges here include reconciling information-flow policies from several involved parties, with possibly conflicting goals. Moreover, tracking end-to-end information flow in web applications remains an open question. Our objective was to establish an enhanced understanding of how to make information-flow control policies and mechanisms practical in a web setting.
 
-**Secure composition.** Secure composition policies specify how active third-party components, for instance written in JavaScript, can be securely integrated into applications via clientside and server-side mashups. By nature, web mashups heavily depend on interaction and communication across different origins, but contradictory, mashup security relies on separation techniques for protecting both code and data. As a result, traditional HTML techniques (mainly based on the same-origin policies) fail to address both the interaction and separation needs. We wanted to explore principled approaches to achieve the delicate balance between interaction and separation in security composition.
+**Secure composition.** Secure composition policies specify how active third-party components, for instance written in JavaScript, can be securely integrated into applications via client-side and server-side mashups. By nature, web mashups heavily depend on interaction and communication across different origins, but contradictory, mashup security relies on separation techniques for protecting both code and data. As a result, traditional HTML techniques (mainly based on the same-origin policies) fail to address both the interaction and separation needs. We wanted to explore principled approaches to achieve the delicate balance between interaction and separation in security composition.
 
 **Cross-domain interaction.** One of the original and still unresolved problems of the web is the inherent incompatibility between the cross-domain nature of the hyperlink and the same-origin security policy of its active content. In the recent past the situation has become even more complex with the introduction of client-side primitives for cross-domain interaction, such as CORS. Our objective was to assess the impact of current developments and identify promising directions for solutions.
 
@@ -95,9 +97,9 @@ The first three days, the floor was opened by keynotes to set the scene and insp
 - John C. Mitchell (Stanford University, US) – *Science of Web Security and third-party tracking*
 
 **Martin Johns**
-opened the Dagstuhl seminar on Monday by assessing the current stateof-practice in web security, 3 years after the previous Dagstuhl Seminar on Web application security. He sketched the evolving web landscape, and surveyed to what extend the results achieved so far suffice, and what is still missing. In particular, Martin gave a heads-up on client-side complexity and server-driven security, as being developed in the EU-FP7 project WebSand1.
+opened the Dagstuhl seminar on Monday by assessing the current state-of-practice in web security, 3 years after the previous Dagstuhl Seminar on Web application security. He sketched the evolving web landscape, and surveyed to what extend the results achieved so far suffice, and what is still missing. In particular, Martin gave a heads-up on client-side complexity and server-driven security, as being developed in the EU-FP7 project WebSand<sup>1</sup>.
 
-**Shriram Krishnamurthi** discusses techniques based on typing to verify web applications, and demonstrated how these techniques can also be used to verify browser extensions. Such a verification can for instance assure that no unsafe functions are called within an extension, while operating in *private browsing mode.* As part of the underlying toolkit, Shriram presented core semantics of JavaScript in λJS (lambdaJS), and showed how a JavaScript program can be desugared in λJS [30].
+**Shriram Krishnamurthi** discusses techniques based on typing to verify web applications, and demonstrated how these techniques can also be used to verify browser extensions. Such a verification can for instance assure that no unsafe functions are called within an extension, while operating in *private browsing mode.* As part of the underlying toolkit, Shriram presented core semantics of JavaScript in λ<sub>JS</sub> (lambdaJS), and showed how a JavaScript program can be desugared in λ<sub>JS</sub> [30].
 
 **John C. Mitchell** focused on the *science of security and principles*, and demonstrated this by means of relevant web security examples. He emphasized the importance of defining system models, adversary models as well as desired properties of system, and argued that is seems feasible to verify web security properties. An interesting research question to be answered by such a *scientific* approach would be “Does CSP prevent XSS?”, and John challenged the audience to tackle this challenge. In addition, he discussed the importance of experimental studies and gave some highlights on recent research results on web tracking.
 
