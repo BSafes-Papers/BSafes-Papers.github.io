@@ -42,6 +42,7 @@ Professor of Law, Boston University School of Law, Vice President, Cyber Civil R
 **Video:** Danielle Citron, Legal Scholar | 2019 MacArthur Fellow
 
 ## Mary Anne Franks
+{: .no_toc }
 Professor of Law & Dean’s Distinguished Scholar, University of Miami School of Law, President, Cyber Civil Rights Initiative. Deep thanks to the editors of the University of Chicago Legal Forum for including us in the symposium. Genevieve Lakier, Brian Leiter, and symposium participants provided helpful comments. It was a particular pleasure to engage with co-panelists Amy Adler, Leslie Kendrick, and Fred Schauer.  
 [Website](https://www.law.miami.edu/faculty/mary-anne-franks)
 
