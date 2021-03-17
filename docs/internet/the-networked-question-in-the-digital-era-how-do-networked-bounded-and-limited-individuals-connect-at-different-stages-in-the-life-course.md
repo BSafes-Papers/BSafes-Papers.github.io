@@ -34,16 +34,17 @@ FIMS Publications, Information & Media Studies (FIMS) Faculty
 ## Barry Wellman 
 {: .no_toc }
 *University of Toronto*
-[Website](https://www.daniellecitron.com/)
+[Website](https://uttri.utoronto.ca/people/barry-wellman/)
 
 ## Anabel Quan-Haase
 {: .no_toc }
 *The University of Western Ontario, aquan@uwo.ca*
-[Website](https://www.law.miami.edu/faculty/mary-anne-franks)
+[Website](https://www.fims.uwo.ca/people/profiles/anabel_quan-haase.html)
 
 ## Molly-Gloria R. Harper
 {: .no_toc }
 *Western University*
+[Twitter](https://twitter.com/m_harper93?lang=en)
 
 <iframe src="https://www.youtube.com/embed/e59fq2i2HL4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 **Video:** Explore the beauty of Western's campus  
