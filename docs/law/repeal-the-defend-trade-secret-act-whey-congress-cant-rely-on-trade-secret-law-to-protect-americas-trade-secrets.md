@@ -102,7 +102,7 @@ This Notes is brought to you for free and open access by Digital Commons @ Georg
 ## I. INTRODUCTION
 “[T]here are only ‘two categories’ of companies affected by trade secret theft — ‘[T]hose [sic] that know they’ve been compromised and those that don’t know yet.’” <sup>1</sup> Whether you imagine a cyber thief subverting a company’s network defenses or an employee selling secret information to a competitor, trade secret theft is a real threat. The epidemic has ballooned to such proportions- $600 billion –that combatting trade secret theft enjoys bipartisan congressional support.<sup>2</sup> Despite Congress’s best efforts, there is no evidence the bleeding has slowed, much less stopped.<sup>3</sup>
 
-By its very nature, trade secret protection requires a delicate balance, unlike traditional intellectual property. Within the intellectual property framework, trade secrets are an enigma. Traditional intellectual property law grants inventors and artists legal protection for *sharing* their innovations; however, the government grants protection to trade secret owners who *withhold*their innovations.<sup>4</sup>
+By its very nature, trade secret protection requires a delicate balance, unlike traditional intellectual property. Within the intellectual property framework, trade secrets are an enigma. Traditional intellectual property law grants inventors and artists legal protection for *sharing* their innovations; however, the government grants protection to trade secret owners who *withhold* their innovations.<sup>4</sup>
 
 The term “trade secret” likely brings to mind something like Coca-Cola’s secret formula; however, the law extends protection to less-obvious examples, such as a list of customer names or employee know-how.<sup>5</sup>
 
