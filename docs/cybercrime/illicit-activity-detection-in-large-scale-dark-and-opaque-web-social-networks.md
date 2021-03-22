@@ -34,23 +34,23 @@ This is the mobile-friendly web version of the [original article](https://schola
 
 ## Dhara Shah  
 {: .no_toc }
-*Georgia State University*
+*Georgia State University*  
 [Linkedin](https://www.linkedin.com/in/dharapshah)
 
 ## T. G. Harrison
 {: .no_toc }
-*Georgia State University*
+*Georgia State University*  
 
 ## Christopher B. Freas
-*Georgia State University*
+*Georgia State University*  
 [Website](https://ebcs.gsu.edu/profile/christopher-freas/)
 
 ## David Maimon
-*Georgia State University*
+*Georgia State University*  
 [Website](https://aysps.gsu.edu/profile/david-maimon-2/)
 
 ## Robert W. Harrison
-*Georgia State University* 
+*Georgia State University*   
 [Linkedin](https://www.linkedin.com/in/robert-harrison-7554717)
 
 <iframe src="https://www.youtube.com/embed/D7-H1t8aBbA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -166,6 +166,7 @@ The second test was to distinguish between regular human users and bots or autom
 
 The third test was to compare advertisements or listings with conversational messages. We assayed this both by comparing channels that were almost entirely listings with normal channels and extracting an “ad” data set and comparing that with comparably sized random selections of conversations.
 
+![A histogram of the relative entropy vs. count for the Python group and an illicit group](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-fig-1.png)
 **Fig. 1**: A histogram of the relative entropy vs. count for the Python group and an illicit group. The words shown are those that are significant at the 1% percentile cutoff. The information metric has clearly identified the difference between the two groups. The red vertical line shows the median.
 
 Fourth, we compared a Python programming channel, which is a sample of non-criminal activity, with our “illicit” channels to show that we could discriminate between licit and illicit activity, and finally, we compared Telegram messages to Twitter messages.
@@ -175,11 +176,15 @@ After creating word counters from the training data for each of the data sets, w
 ### *E. Encoding Features*
 Embedding techniques like Word2Vec [7], Doc2Vec [8], and Paragraph2Vec [24] project the words in a document onto a set of vectors of similar words. Unfortunately, the small size and idiomatic nature of the vocabulary in the Telegram messages tends to obviate the advantage of this approach. The word vectors would be much shorter than the 100 or so typically used in Word2Vec to represent a single concept. Bots, for example, often have a total vocabulary that is much smaller than 100 words, so reducing them to typical Word2Vec sizes is impractical at best. Similarly, consistent misspellings and non-standard usage is characteristic of some of the Telegram users. Consistent use of “ur” instead of “your” is a useful feature for identifying a user or channel, which the vector of words, alternate spellings, and synonyms in Word2Vec would hide.
 
+![A histogram of the accuracy vs. count for classifiers of all distinct group pairs built with 10% percentile of the words](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-fig-2.png)
 **Fig. 2:** A histogram of the accuracy vs. count for classifiers of all distinct group pairs built with 10% percentile of the words. As expected, it neatly follows a β distribution.
 
+![A histogram of the Matthew’s correlation vs. count for classifiers of all distinct group pairs built with 10% of the words](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-fig-3.png)
 **Fig. 3:** A histogram of the Matthew’s correlation vs. count for classifiers of all distinct group pairs built with 10% of the words.
 
-In order to vectorize the message blocks, we first take the p=1, 5, or 10% words from the word-entropy distribution. We use these words as dictionary, and construct ordered wordcount for this dictionary for each of the message blocks. Hence, each message block is transformed to a 1× |*D*| vector where |*D*| is the length of the dictionary. And if *i* <sup>th</sup> positions of this vector is nonzero, say j, then this message block has *i* <sup>th</sup> word in the word dictionary appear in it *j* many times. The sparse number of words in the word dictionary assures that most of the message blocks would correspond to zero vectors, and hence the training matrix would be sparse. Also, the smaller the p, the shorter the word-dictionary and the sparser the training matrix.
+<div>
+In order to vectorize the message blocks, we first take the p=1, 5, or 10% words from the word-entropy distribution. We use these words as dictionary, and construct ordered wordcount for this dictionary for each of the message blocks. Hence, each message block is transformed to a 1× |D| vector where |D| is the length of the dictionary. And if i <sup>th</sup> positions of this vector is nonzero, say j, then this message block has i <sup>th</sup> word in the word dictionary appear in it j many times. The sparse number of words in the word dictionary assures that most of the message blocks would correspond to zero vectors, and hence the training matrix would be sparse. Also, the smaller the p, the shorter the word-dictionary and the sparser the training matrix.
+</div>
 
 ### *F. Control Calculations*
 
@@ -188,7 +193,7 @@ In order to measure the effectiveness of IBOW as a sentence embedding, we compar
 ### *G. Experimental Details*
 With word dictionaries for p = 1, 5, 10 and 50, we vectorized training message blocks as ordered word counters for each pair of the groups. To study the goodness of this feature selection method, we train three different binary classifiers for the same training vectors: logistic regression and 1 layered artificial neural network (ann) capped by 200 iterations and adaboost with 100 solvers. For ann, we use 100 neurons with stochastic gradient decent and constant learning rate 0.01. None of the hyper-parameters are tuned for any specific group-pair, pr threshold values, rather, the hyper-parameters are chosen to be smallest but generally optimal for many groups. We conducted the experiments with Python 3.7 on an 8core double-threaded i7 3.6GHz machine. We used numpy 1.18 [30], [31] with random seed 0 to process the data and scikit learn 0.23 [29] with random seed 0 to build the models. The Matthew’s correlation coefficient is a good alternative to F1 scores and ROC curves [32] for representing training quality. The accuracy and Matthew’s Correlation coefficient are defined:
 
-Fig.
+![Matthew’s Correlation coefficien](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-formula.png)
 
 where TP is True Positive, TN is True Negative, FP is False Positive, and FN is False Negative.
 
@@ -202,8 +207,10 @@ TF-IDF is based on a probabilistic model of word occurrence in text [27], [26]. 
 
 Comparison of the accuracy of IBOW with TF-IDF and Doc2Vec is shown in Figure 5. Both TF-IDF and IBOW are significantly better than Doc2Vec, and TF-IDF, as run, is slightly better than our approach. That TF-IDF is better is not surprising as TF-IDF uses far more features than IBOW as shown in Figure 4. IBOW generates nearly the same accuracy as TF-IDF with at least ten times less features which shows that its linguistic model effectively captures the essential feature of the conversation. Using so many more features to receive a few percent better accuracy violates the economy of features which is important for performance with big data. Doc2Vec, in addition to being less accurate than either TFIDF or IBOW, is significantly slower and averages 20 or more CPU minutes per trial where the other approaches use less than a minute. These data are summarized over a large (1689 samples) and representative subset of the one group vs another test set. The CPU requirements for Doc2Vec limited the size of the test. The machine learning was done with Logistic Regression to eliminate the effects due to differences tuning meta-parameters in Adaboost and ANN.
 
-**Fig. 4: **A histogram of the number of TF-IDF words divided by the number of words in our approach. The data for the 10% percentile in IBOW is shown.
+![A histogram of the number of TF-IDF words divided by the number of words in our approach](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-fig-4.png)
+**Fig. 4:** A histogram of the number of TF-IDF words divided by the number of words in our approach. The data for the 10% percentile in IBOW is shown.
 
+![A histogram of relative accuracy of our method (10% percentile)](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-fig-5.png)
 **Fig. 5:** A histogram of relative accuracy of our method (10% percentile). The upper panel shows IBOW-Doc2Vec and the lower panel shows IBOW-TF-IDF. Positive numbers are where IBOW is better.
 
 ### *B. Bot Detection*
@@ -212,21 +219,34 @@ Bot messages vary between highly repetitive messages, such as “Welcome to the 
 ### *C. Listing Detection*
 Listings or ads are less repetitive than bot messages. Since they are written by members of the community they more difficult to distinguish from chats because the linguistic features of a listing and a chat written by the same person will be highly similar. Figure 9 shows the distribution of accuracy and it is not as good as the bot example (Figure 6). The Matthew’s correlation, Figure 10, shows a wider spread than that seen with bots as well.
 
-**Fig. 6: **A histogram of the cross-validated accuracy of the deciding whether a message came from a bot or a human. Each row shows the dependence on the percentile of the data used.
+neural network.png
 
+![A histogram of the cross-validated accuracy of the deciding whether a message came from a bot or a human](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-fig-6.png)
+**Fig. 6:** A histogram of the cross-validated accuracy of the deciding whether a message came from a bot or a human. Each row shows the dependence on the percentile of the data used.
+
+![A scatter plot of a typical criminal group with respect to other criminal groups](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-fig-7.png)
 **Fig. 7:** A scatter plot of a typical criminal group with respect to other criminal groups. The data of 1, 5, 10 and 50 percentile with false positive messages as x axis and true positive messages as y axis, obtained by artificial neural network. The figure shows that the reliability of the model increases as the percentile of data is increased.
 
 ### *D. Group Comparisons*
 The overall comparison of groups, all 5253 pairs, is shown in Figures 2 and 3. More interesting, from a sociological perspective is the accuracy at determining whether a group was one centered on bank fraud or other illicit activity or one centered on a normal activity. Since many of the Telegram groups have misleading names, for example one on “puppies” being images of dog-fighting, we chose a Python programming group as a control set. We could quickly verify that the Python group was on programming and not snakes. Another similar control was to establish if a message came from Telegram or the similar social networking site, Twitter.
 
+neural network.png
+
+![A histogram of the Matthew’s correlation coefficient of the deciding whether a message came from a bot or a human](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-fig-8.png)
 **Fig. 8:** A histogram of the Matthew’s correlation coefficient of the deciding whether a message came from a bot or a human. Each row shows the dependence on the percentile of the data used.
 
+neural network.png
+
+![A histogram of the cross-validated accuracy of the deciding whether a message was a listing or a conversation](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-fig-9.png)
 **Fig. 9:** A histogram of the cross-validated accuracy of the deciding whether a message was a listing or a conversation. Each row shows the dependence on the percentile of the data used.
 
 
 *1) Python vs. Illicit:* Figure 1 shows the distribution of words for Python vs a similar sized bank fraud chat group. Interestingly, even at 1% percentile, the words show a humancomprehensible difference. This demonstrates that IBOW can be used to develop human comprehensible machine learning models. The Python group, in addition to the word “Python”, includes Python language terms (e.g. “self”, “list”) and words that describe the kinds of conversations (“help”, “code”, “error”). The words in the Python group are clearly literate and avoid slang. The bank fraud group has distinctive slang (“bro”, “lol”, “ur”), and content (“card”, “address”, “mac”). The two groups also differ in their use of “low information” words like “and”, “you”, “in”, and “ok”. Figure 11 shows the distribution of the accuracy and Figure 12 distribution of the Matthew’s coefficient for Python vs illicit chats. Again, increasing the number of words has a larger effect on the Matthew’s coefficient than the accuracy.
 
-**Fig. 10:** A histogram of the Matthew’s correlation coefficient of the deciding whether a message was a listing or a conver- sation. Each row shows the dependence on the percentile of the data used.
+neural network.png
+
+![A histogram of the Matthew’s correlation coefficient of the deciding whether a message was a listing or a conversation](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-fig-10.png)
+**Fig. 10:** A histogram of the Matthew’s correlation coefficient of the deciding whether a message was a listing or a conversation. Each row shows the dependence on the percentile of the data used.
 
 *2) Twitter vs Telegram:* Figure 13 shows the distribution of accuracy when Twitter data were compared to Telegram data. The quality of classification was much higher than with Telegram vs Telegram, so we only present the 10% percentile here. All tweets from a random day, September 23 2019, were downloaded from twitter dumps. Tweets were selected that were in English, more than two million, and processed in the same manner as the Telegram data. Random balanced subsets of the processed Twitter data were used to ensure that the machine learning reflected the accuracy of the model rather were due to imbalanced data.
 
@@ -235,15 +255,25 @@ The overall comparison of groups, all 5253 pairs, is shown in Figures 2 and 3. M
 ### *A. Summary*
 Our work shows that a relatively simple and economical algorithm, based on a two-tailed Kullback-Leibler divergence, determines a set of features that accurately classify short idiomatic messages. The algorithm is economical both in memory use and computer processing time, which makes it eminently suitable for big data problems.
 
+neural network.png
+
+![A histogram of the cross-validated accuracy of the deciding whether a message came from a Python channel or an illicit one](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-fig-11.png)
 **Fig. 11:** A histogram of the cross-validated accuracy of the deciding whether a message came from a Python channel or an illicit one. Each row shows the dependence on the percentile of the data used.
 
+neural network.png
+
+![A histogram of the Matthew’s correlation coefficient of the deciding whether a message came from a Python channel or an illicit one](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-fig-12.png)
 **Fig. 12:** A histogram of the Matthew’s correlation coefficient of the deciding whether a message came from a Python channel or an illicit one. Each row shows the dependence on the percentile of the data used.
 
 We successfully classified the originating group of 5,253 pairs of Telegram chats, distinguished bot messages from human ones, identified listings or advertisements, and identified human comprehensible differences between illicit conversations and Python programming conversations. Our approach also could identify the difference between social networking entities, distinguishing Twitter from Telegram. The approach is considerably more accurate than embedding algorithms like Doc2Vec on this kind of data. It is also much faster than Doc2Vec. It is a little less accurate than TF-IDF, but uses far fewer features.
 
+![A histogram of the cross-validated accuracy of the deciding whether a message came from a Telegram channel or Twitter.](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-fig-13.png)
+**Fig. 13:** A histogram of the cross-validated accuracy of the deciding whether a message came from a Telegram channel or Twitter. The 10% percentile was used for this figure.
+
 ### *B. Future Work*
 Future work includes extending the algorithm to handle phrases and sets of words. This should improve the accuracy while keeping the efficiency. However, it may require an extra unsupervised machine learning step to extract the most meaningful phrases much as is used in embedding algorithms. Combinations of this approach with embedding, at least at the word level, could be useful for larger and longer documents. We could also explore the use of an “inverse document frequency”, the IDF in TF-IDF, to improve accuracy. Finally, the work should be extended to include non-literary features, such as emojis and non-ASCII UTF-8 and UTF-16 characters.
 
+![The accuracy (in percentage) and Matthew’s correlation coefficient for Logistic Regression, Adaboost and ANN, and percentiles of the data](https://statics.bsafes.com/images/papers/illicit-activity-detection-in-large-scale-dark-and-opaque-web-social-networks-table.png)
 **TABLE I:** The accuracy (in percentage) and Matthew’s correlation coefficient for Logistic Regression, Adaboost and ANN, and percentiles of the data. The ANN is the best algorithm, but the difference is not large and within the observed variance. The difference between 10% and 50% is small compared to the increase in the work required.
 
 ## VII. ACKNOWLEDGEMENTS
