@@ -1,7 +1,7 @@
 ---
 layout: default
 title: § The Internet Never Forgets - A Federal Solution to the Dissemination of Nonconsensual Pornography 
-parent: Privacy 
+parent: Law 
 nav_order: 9800108 
 ---
 <style>
