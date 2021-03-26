@@ -35,6 +35,7 @@ Suggested APA Format Citation:
 National Highway Traffic Safety Administration. (2016, October). *Cybersecurity best practices for modern vehicles.* (Report No. DOT HS 812 333). Washington, DC: Author.
 
 ## Table of Contents
+{: .no_toc }
 
 - 1 Purpose of This Document
 
@@ -99,6 +100,9 @@ National Highway Traffic Safety Administration. (2016, October). *Cybersecurity 
 8 Aftermarket Devices
 
 9 Serviceability
+
+1. TOC
+{:toc}
 
 ## 1. Purpose of This Document
 This document describes the National Highway Traffic Safety Administration’s nonbinding guidance to the automotive industry for improving motor vehicle cybersecurity.
