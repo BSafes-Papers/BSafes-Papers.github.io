@@ -200,7 +200,7 @@ NHTSA supports the industry activities and provides this guidance as a resource 
 
 **Digital signing** is a mathematical technique used to validate the authenticity and integrity of a message, software or digital document.
 
-**Electronic Control Unit **(ECU) is an embedded system that provides a control function to a vehicle’s electrical system or subsystems through digital computing hardware and associated software.
+**Electronic Control Unit** (ECU) is an embedded system that provides a control function to a vehicle’s electrical system or subsystems through digital computing hardware and associated software.
 
 **Exploit** refers to an action that takes advantage of a vulnerability in order to cause unintended or unanticipated behavior to occur on computer software and/or hardware. An example of an exploit would be using a diagnostic port vulnerability to take advantage of a buffer overflow that allows access over Internet Protocol (IP) networks.
 
