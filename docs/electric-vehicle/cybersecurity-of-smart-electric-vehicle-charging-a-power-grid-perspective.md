@@ -30,8 +30,9 @@ This is the mobile-friendly web version of the [original article](https://ieeexp
 *Digital Object Identifier 10.1109/ACCESS.2020.3041074*
 
 ***
-This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/  
+This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/<br>    
 ***
+
 # Cybersecurity of Smart Electric Vehicle Charging: A Power Grid Perspective
 {: .no_toc }
 
