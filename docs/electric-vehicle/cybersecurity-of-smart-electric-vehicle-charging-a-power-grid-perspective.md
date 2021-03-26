@@ -30,7 +30,9 @@ This is the mobile-friendly web version of the [original article](https://ieeexp
 *Digital Object Identifier 10.1109/ACCESS.2020.3041074*
 
 ***
+
 This work is licensed under a Creative Commons Attribution 4.0 License. For more information, see https://creativecommons.org/licenses/by/4.0/<br>    
+
 ***
 
 # Cybersecurity of Smart Electric Vehicle Charging: A Power Grid Perspective
@@ -53,6 +55,10 @@ Faculty of Electrical Engineering and Computing, University of Zagreb, 10000 Zag
 Department of Electrical and Computer Engineering, Center for Cybersecurity, New York University, Brooklyn, NY 11201, USA
 
 Corresponding author: Samrat Acharya (samrat.acharya@nyu.edu)
+
+<iframe src="https://www.youtube.com/embed/bhTwfoAeq6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**Video:** Webinar: Online MS in Cybersecurity at NYU
+
 
 The work of Samrat Acharya and Yury Dvorkin was supported by the U.S. National Science Foundation under Grant ECCS-2029158 and Grant ECCS-1847285. The work of Yury Dvorkin and Hrvoje Pandžić was supported in part by the Croatian Science Foundation, and in part by the European Union through the European Social Fund under project Flexibility of Converter-based Microgrids—FLEXIBASE under Grant PZS-2019-02-7747.
 
