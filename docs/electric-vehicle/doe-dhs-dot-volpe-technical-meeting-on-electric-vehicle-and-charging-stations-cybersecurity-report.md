@@ -258,7 +258,7 @@ The Department of Energy (DOE) and U.S. DOT Volpe Center would like to thank sub
 ## List of Figures
 - Figure 1. Typical Telematics System
 
-##### List of Tables
+## List of Tables
 - Table 1. Typical Data Elements Exchanged Between an EV and Charging Station
 
 - Table 2. EV and Charging Infrastructure Stakeholders
