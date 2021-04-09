@@ -2,7 +2,7 @@
 layout: default
 title: § National Plug-In Electric Vehicle Infrastructure Analysis 
 parent: Electric Vehicle
-has_children: itrue
+has_children: true
 nav_order: 983030000 
 ---
 <style>
