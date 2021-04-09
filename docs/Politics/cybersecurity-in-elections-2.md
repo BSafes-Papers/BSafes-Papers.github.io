@@ -95,6 +95,7 @@ Overly ambitious, undeliverable election technology projects demanded by elector
 Attacks designed to leak electoral stakeholders’  confidential information constitute a combination of hacking attacks and influencing operations. EMBs need to be especially aware of the risk of data leaks from stakeholders who have privileged access to election data such as voter registers and/or incomplete election results. Guarding against such election data leaks is one possible area of interagency cooperation and joint counter measures by EMBs, other government agencies and electoral stakeholders.
 
 **Table 2.1.** Spectrum of election-related cyberthreats
+![Table 2.1. Spectrum of election-related cyberthreats](https://statics.bsafes.com/images/papers/cybersecurity-in-elections-table-2-1.png)
 
 ### 2.4. Adversaries
 In the aftermath of the 2016 US election, many countries perceive foreign states that seek to influence national elections as the main adversaries to cybersecurity in elections. International law also applies within cyberspace; election hacking is legally considered an ‘internationally wrongful act’  and a breach of sovereignty that requires the victim to respond. However, attribution and obtaining proof that perpetrators are the organs of a foreign state are very challenging. A range of other adversaries may seek to utilize technology to influence election outcomes, including domestic political actors as part of an election campaign, hacktivists who promote a political agenda or social change via hacking activities, including a demonstration of their lack of confidence in existing election technologies, and terrorists resorting to cyberoperations.
@@ -106,6 +107,7 @@ Depending on their motivation and willingness to resort to illegal methods, comp
 Any type of hacker can negatively impact the integrity of elections. Even wellintentioned white hat hackers can cause considerable damage to electoral integrity if they carelessly and irresponsibly publish their findings, such as doing so too close to an election with insufficient time to fix flaws or by exaggerating the severity of discovered weaknesses to garner increased publicity. Hacking events such as the DefCon Voting Village (DefCon 2017; DefCon 2018) in the USA serve as an opportunity to advocate improved election technology, but can also threaten the credibility of elections.
 
 **Table 2.2.** Adversaries that can negatively impact the integrity of elections
+![Table 2.2 Adversaries that can negatively impact the integrity of elections](https://statics.bsafes.com/images/papers/cybersecurity-in-elections-table-2-2.png)
 
 ### 2.5. Mitigation measures
 While a detailed account of measures to mitigate cyber-risks goes beyond the scope of this publication, they usually include the following measures.
@@ -127,4 +129,6 @@ While a detailed account of measures to mitigate cyber-risks goes beyond the sco
 ### 2.6. The need for interagency collaboration
 While adversaries are free to choose any attack vector, defence strategies are much more fragmented. Depending on the country context, some cyberthreats fall under the mandate of various levels of election administration, other threats are the responsibility of other state agencies, some are countered mostly through private sector or political party action and industry self-regulation and some— especially where technical progress is fast or freedom of speech may be at stake— are not regulated at all. The ensuing network of jurisdictions, competences and responsibilities is what makes a whole of government approach and interagency collaboration on cybersecurity in elections essential.
 
+**Figure 2.1.** Cyber-risks in elections vs. EMB mandate
+![Figure 2.1. Cyber-risks in elections vs. EMB mandate](https://statics.bsafes.com/images/papers/cybersecurity-in-elections-fig-2-1.png)
 </div>

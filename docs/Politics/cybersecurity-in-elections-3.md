@@ -35,12 +35,13 @@ In some countries interagency collaboration is limited to a few agencies, but ac
 >In 2014, Moldova introduced a digital voter register, which records voters’ presence at polling stations, as an additional verification mechanism. When it was first used during the 2014 general election, the system unexpectedly went down for several hours. Although the breakdown was due to insufficient server backup, rumours soon spread that an attack had taken place. The Central Election Commission’s newly established collaboration with the security services, however, quickly paid off. They rapidly provided additional servers to the election commission’s headquarters, and publicly renounced rumours of an attack. These actions quickly returned the election to the commission’s control and established the foundations for interagency trust.
 
 **Table 3.1.** Agencies potentially involved in collaboration on cybersecurity
-
+![Table 3.1. Agencies potentially involved in collaboration on cybersecurity](https://statics.bsafes.com/images/papers/cybersecurity-in-elections-table-3-1.png)
 
 ### 3.2. Dedicated forums and administrative bodies
 Some countries organize interagency collaboration through dedicated forums such as task forces, working groups, dedicated projects and administrative bodies (see Table 3.2). Some task forces meet on an ad hoc basis, while others conduct regular forums in order to exchange information. Many countries have a single task force on election cybersecurity, yet Estonia has found that a model with several small, focused groups is more effective. The USA maintains two forums— one for collaboration between state agencies and one for collaboration with the private sector.
 
 **Table 3.2.** Examples of interagency forums on cybersecurity
+![Table 3.2. Examples of interagency forums on cybersecurity](https://statics.bsafes.com/images/papers/cybersecurity-in-elections-table-3-2.png)
 
 ### 3.3. Cooperation between different levels of the EMB
 Countries with a centralized EMB that is responsible for organizing elections at all levels, including polling stations, usually find it easier to apply uniform cybersecurity measures throughout the country. In countries with a decentralized model, where independent, local EMBs have direct operational control over organizing elections, yet the general public (and sometimes even politicians) tend to hold the central election authority ultimately responsible for any local incidents. The central authority regularly receives the brunt of criticism and reputational damage for any errors.

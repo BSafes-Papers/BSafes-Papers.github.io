@@ -63,6 +63,7 @@ Specific focus areas of collaboration can include:
 Interagency collaboration happens at various levels that mutually build on each other, indicating a progression towards more comprehensive collaboration (see Figure 4.1).
 
 **Figure 4.1**. Levels of interagency collaboration
+![Figure 4.1 Levels of interagency collaboration](https://statics.bsafes.com/images/papers/cybersecurity-in-elections-fig-4-1.png)
 
 ### 4.2. Setting up and facilitating interagency collaboration
 The case study interviews conducted for this publication indicate that many countries are still constructing measures to protect elections against cyberthreats. While they increasingly recognize the importance of interagency collaboration, many are still in the early stages of setting up and utilizing the required mechanisms.
