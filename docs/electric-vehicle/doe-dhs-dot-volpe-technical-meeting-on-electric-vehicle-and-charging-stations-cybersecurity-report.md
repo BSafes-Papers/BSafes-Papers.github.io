@@ -2,7 +2,7 @@
 layout: default
 title: § DOE/DHS/DOT Volpe Technical Meeting on Electric Vehicle and Charging Station Cybersecurity Report 
 parent: Electric Vehicle
-has_children: itrue
+has_children: true
 nav_order: 982090000 
 ---
 <style>
