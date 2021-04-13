@@ -2,7 +2,7 @@
 layout: default
 title: § Securing Cyber Assets - Addressing Urgent Cyber Threats to Critical Infrastructure 
 parent: Infrastructure 
-has_children: itrue
+has_children: true
 nav_order: 983040000 
 ---
 <style>
