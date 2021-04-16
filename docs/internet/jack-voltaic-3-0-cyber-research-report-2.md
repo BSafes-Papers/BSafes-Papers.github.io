@@ -19,6 +19,7 @@ nav_order: 20
 }
 </style>
 
+<div class="dont-break-out" markdown="1">
 1. TOC
 {:toc}
 
@@ -32,5 +33,11 @@ The authors appreciate the support and participation of the following state and 
 From academia, we would like to thank President Phil Susmann, Mr. John Kunelius, Dr. Kristen Pedersen, and Lt. Col. Tom Muehleisen, USA (Retired) of Norwich University Applied Research Institutes (NUARI); President Bob Caslen, Col. Mark Bieger, USA (Retired), Mr. Bill Kirkland, Mr. Chad Hardaway, Jr., and Mr. Jay Henderson of the University of South Carolina; Lt. Gen. Glenn M. Walters, USMC (Retired) and Dr. Shankar Banik of The Citadel; Dr. Kathy Love, Col. Pete Hoffman, USA (Retired), and Lt. Col. Scott Scheidt, USA (Retired) of Savannah Technical College (STC); Mr. Michael Shaffer and Col. Eric Toler, USA (Retired) of Augusta University and the Georgia Cyber Center (GCC); Dr. Gabriel Weaver of the University of Illinois at Urbana-Champaign (UIUC) Critical Infrastructure Resilience Institute (CIRI); and Dr. Charles Barry of the National Defense University.
 
 The professionals from industry who contributed to our research and this report include Mr. John Klick, Mr. Ron Yearwood, Mr. Brian Stites, Mr. Jon Snyder, Ms. Sarah Mann, Mr. George Platsis, and Ms. Kristina Ecalnea of FTI Consulting; Ms. Jill Singer, Mr. Jason Porter, Mr. Bruce Westcott, and Ms. Barbara Galicia of AT&T; Dr. Annita Nerses, Mr. Matt Tighe, and Mr. Jason Winslow of Intrepid Networks; Maj. Sam Chanoski, USA (Retired) at Electricity Information Sharing and Analysis Center; Mr. Richard Nelson of SAIC; and Mr. Clement Danish of Blank Slate Solution.
+
+***
+
+### Table of Contents
+
+<ul><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-1/">1. FOREWORD</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-2/">2. ACKNOWLEDGMENTS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-3/">3. INTRODUCTION - JACK VOLTAIC 3.0</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-4/">4. JACK VOLTAIC RESEARCH METHODOLOGY</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-5/">5. EXECUTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-6/">6. FINDINGS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-7/">7. CONCLUSION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-8/">APPENDIX A – ACRONYMS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-9/">APPENDIX B – PARTNERS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-10/">APPENDIX C – SCENARIO</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-11/">APPENDIX D – LAW/POLICY TABLETOP EXERCISE (TTX)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-12/">APPENDIX E – LIVE-FIRE EXERCISE</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-13/">APPENDIX F – MILITARY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-14/">APPENDIX G – PRIVATE INDUSTRY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-15/">APPENDIX H – ALL HAZARDS ANALYSIS (AHA)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-16/">APPENDIX I – CIRI FORT-TO-PORT DISRUPTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-17/">APPENDIX J – REQUIRED DELIVERY DATE (RDD) SIMULATION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-18/">APPENDIX K – DSCA/DSCIR</a></li></ul>
 
 </div>

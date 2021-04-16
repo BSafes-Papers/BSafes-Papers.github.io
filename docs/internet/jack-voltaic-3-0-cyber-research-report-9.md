@@ -19,6 +19,7 @@ nav_order: 90
 }
 </style>
 
+<div class="dont-break-out" markdown="1">
 1. TOC
 {:toc}
 
@@ -117,6 +118,8 @@ The DECIDE® platform powers LFX-based scenarios to help decision-makers in crit
 
 When participants log in, they have access to three panes: the Communication pane on the left, the Information pane in the middle, and the Actions/Questions pane on the right. NUARI’s development team loads the exercise into the tool from an MSEL and roster. At the top, the day and time is displayed and can be advanced by minutes, hours, days, weeks, or years. This allows the exercise to simulate a multiday event and document responses, actions, and notes from participants at certain times. When an exercise is complete, the tool will have captured the relevant information associated with the exercise. The tool then organizes the information chronologically for easy analysis and evaluation of the results.
 
+![Figure 16: Once participants logged into DECIDE](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-16.png)
+
 Figure 16: Once participants logged into DECIDE®, they loaded this three-pane screen to view the Communication (left), Information (middle), and Actions/Questions (right) panes.
 
 The ACI and NUARI initiated the partnership in January 2020. NUARI joined the ACI’s first planner workshop in Savannah, GA, 4 days after the first call. DECIDE® provided the platform for a fully distributed, 8-hour exercise for the cities of Savannah and Charleston. NUARI also worked frequently and closely with the entire Planning Team on a weekly basis. It was an enjoyable experience for the NUARI team, and the organization gained valuable insights working with the different exercise planners from the organizations involved.
@@ -163,5 +166,11 @@ When COVID-19 caused a change from face-to-face to virtual execution, STC offere
 
 #### B.3.5. Blank Slate Solution
 Blank Slate Solution of Mount Pleasant worked to establish critical connections to local and state government that enabled the ACI to develop and execute JV 2.5 and 3.0. The company collaborated with the ACI on all events to ensure that participants received the greatest understanding of and appreciation for information warfare response and policy. The company also served as a member of the JV 3.0 data collection team. Blank Slate Solution will continue to push for additional commitments from other entities in support of future JV efforts.
+
+***
+
+### Table of Contents
+
+<ul><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-1/">1. FOREWORD</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-2/">2. ACKNOWLEDGMENTS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-3/">3. INTRODUCTION - JACK VOLTAIC 3.0</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-4/">4. JACK VOLTAIC RESEARCH METHODOLOGY</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-5/">5. EXECUTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-6/">6. FINDINGS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-7/">7. CONCLUSION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-8/">APPENDIX A – ACRONYMS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-9/">APPENDIX B – PARTNERS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-10/">APPENDIX C – SCENARIO</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-11/">APPENDIX D – LAW/POLICY TABLETOP EXERCISE (TTX)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-12/">APPENDIX E – LIVE-FIRE EXERCISE</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-13/">APPENDIX F – MILITARY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-14/">APPENDIX G – PRIVATE INDUSTRY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-15/">APPENDIX H – ALL HAZARDS ANALYSIS (AHA)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-16/">APPENDIX I – CIRI FORT-TO-PORT DISRUPTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-17/">APPENDIX J – REQUIRED DELIVERY DATE (RDD) SIMULATION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-18/">APPENDIX K – DSCA/DSCIR</a></li></ul>
 
 </div>

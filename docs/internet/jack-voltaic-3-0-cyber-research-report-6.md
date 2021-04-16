@@ -19,6 +19,7 @@ nav_order: 60
 }
 </style>
 
+<div class="dont-break-out" markdown="1">
 1. TOC
 {:toc}
 
@@ -30,7 +31,11 @@ Though scenario injects focused on roadway congestion, rail delays, physical sec
 #### 6.1.1. Findings
 - **1.The Army relies on various interdependent critical infrastructures, the majority of which it does not own or operate, making its domestic operations heavily reliant on external resources.**
 
+![Figure 8: All Hazards Analysis (AHA) Dependency Model for the Transportation Sector—North Charleston](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-8.png)
+
 Figure 8: All Hazards Analysis (AHA) Dependency Model for the Transportation Sector—North Charleston
+
+![Figure 9: All Hazards Analysis (AHA) Dependency Model for the Transportation Sector—Savannah](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-9.png)
 
 Figure 9: All Hazards Analysis (AHA) Dependency Model for the Transportation Sector—Savannah
 
@@ -161,11 +166,15 @@ This was the first time that JV has looked beyond a single metropolitan area, ex
 
     Participants indicated through exercise survey responses that the presented scenario elements were realistic and comprehensively taxing for different sectors and entities and simulated the actual flow of an incident unfolding. Regarding scenario realism and the inducement of participant stress during the event, we asked participants to self-report stress levels after each turn. Accordingly, these data indicated that stress levels consistently increased from turn to turn as issues and challenges continued to cascade, with two-thirds of survey respondents indicating a high level of stress by the final turn of the exercise (see figure 10). This feedback indicates participants and their respective organizations felt enabled in implementing their respective incident response actions, and JV 3.0’s bottom-up approach was informative and added value to participants’ future decisions.
 
+![Figure 10: Stress of Participants by Turn](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-10.png)
+
 Figure 10: Stress of Participants by Turn
 
 - **4. Participants across sectors and levels of government should use municipality-focused cyber exercises to improve overall incident response.** 
     
 	In both JV 3.0 exercises, participants overwhelmingly indicated with 88-percent positive responses that the exercise provided them with new information or sources of information relevant to incident response, such as available resources, new knowledge on infrastructure and policies, and organizations that support community lifelines. Eighty-four percent of survey respondents also reported that JV 3.0 helped them identify gaps in their respective incident response plans regarding knowledge, resources, communication channels, and the commitment of personnel during incident response. Additionally, 83 percent of survey respondents reported that participation in JV 3.0 would help their organization improve its incident response plan going forward. Figure 11 further illustrates this point, with a majority of participant-driven measures being classified as either a communication (orange), action (red), or plan (brown) between organizations throughout both iterations of the event. These response percentages, coupled with corresponding observation data and testimonials, suggest that most participants felt that their time, energy, and resource commitment translated into added value for their organizations following JV 3.0.
+
+![Figure 11: Participant-Driven Measures in the JV 3.0 Exercises](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-11.png)
 
 Figure 11: Participant-Driven Measures in the JV 3.0 Exercises
 
@@ -188,6 +197,8 @@ Whereas a whole-of-government approach is a culture that promotes information sh
 
 There are relatively well-understood interdependencies among critical infrastructure sectors, such as natural gas and electric; power and water; and communications and ports, to name a few. To illustrate, figure 12 shows the AHA communication sector dependency model for major lifeline critical infrastructure (see appendix H). The upper-left quadrant shows communication dependency links (green lines) and communication facilities (orange circles), and the top-right quadrant adds nodes to indicate port facilities (black) and substations (red). The bottom-left quadrant shows the interdependencies that exist among electricity (red), rail (orange), natural gas (yellow), and water (blue). Given the multiple sectors included in the dependency model, it is imperative that local governments include as many critical infrastructure sectors in their cyber incident response plans, rehearsals, and exercises. Through the whole-of-community approach, we can identify where these interdependencies exist and take appropriate measures to ensure that incidents do not create cascading effects.
 
+![Figure 12: Communication Dependency Model (Charleston)](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-12.png)
+
 Figure 12: Communication Dependency Model (Charleston)
 
 Perhaps most importantly, the local and private entities that are exploited to cause cascading effects are the first on the scene to combat the adversary. As such, initial response activities may be dictated by nongovernmental agencies. Whole-of-government culture for cyber incident response is good but insufficient; critical infrastructure resilience requires a culture that embraces and mobilizes the entire affected community.
@@ -199,6 +210,8 @@ Perhaps most importantly, the local and private entities that are exploited to c
 Cyber incident responses require rapid information sharing and requests for assistance from state and local players. Local events can have significant cascading impacts throughout the county, state, and Nation. Differences among city, state, federal, and private sector responses can add significant complexities. Thresholds for information sharing and reporting are critical to understanding situations and recognizing an attack. The exercise illustrated cases in which sharing and reporting did not happen in a timely manner or could not extend beyond an organization, thus preventing the early identification of a cyber incident. Also, gaps in understanding the chain of authority for requesting additional resources can impact requests for and the deployment of state and federal assistance.
 
 Furthermore, differences among city, state, federal, and private sector incident responses and levels of transparency are not necessarily conducive to trust or situational awareness. Evidence from JV 3.0 clearly illustrates that different levels of government and different sectors have different perspectives, and each agency or level may only see part of the whole picture. After receiving the incident injects for each turn, the participants discussed the new or ongoing issues that were most relevant and pressing to their respective sectors; this information was tracked by data collectors using the data code “focus.” The word clouds in figure 13 illustrate that different tables (sectors) focused on different aspects of the situation. For example, the city table focused strongly on local traffic issues and, to a lesser extent, issues related to students (who were impacted by water supply issues at the schools). A key focus of the port table was a combination of power disruption issues related to protestors, continuity of operations, and potential impacts on the port’s military customers. The energy sector focused on responding to ransomware, maintaining its services for the business sector, and potentially leveraging third-party vendors to compensate for shortfalls. The federal/military sector reflected “cyber” as a front-and-center focus (though the word “ransomware” is in the word clouds for the other three sectors pictured).
+
+![Figure 13: These word clouds illustrate that different sectors had different perspectives, focused on different aspects of the situation, and allocated different weights to common issues.](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-13.png)
 
 Figure 13: These word clouds illustrate that different sectors had different perspectives, focused on different aspects of the situation, and allocated different weights to common issues.
 
@@ -221,6 +234,8 @@ From a whole-of-community perspective, JV 3.0 demonstrated it is possible to bri
 
     Communication network visualizations generated from the exercise data further illustrate the cross-sector collaboration efforts that were initiated during JV 3.0 due to various exercise elements being introduced within the scenario. Figure 14 is an illustration of scenario-induced cross-sector communication by exercise turn that took place during JV 3.0, with the port depicted as the center of gravity. Though the port is depicted as communicating with traditional maritime stakeholders, this visualization demonstrates increased coordination with new municipality, county, state, federal, and private sector stakeholders during response efforts as well.
 
+![snapshot visualization](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-14.png)
+
 Figure 14: In this snapshot visualization, the organizational nodes representing different agencies are sorted in clockwise order by the number of requests they made to another agency. The more requests the agency made, the darker the color. In addition, the larger the node, the more requests the agency received. The colors of the edges represent the turns in which the relationship occurred: orange for turn 4, green for turn 5, blue for turn 6, and purple for turn 7.
 
 A municipality’s well-established and well-developed relationships with local stakeholders, both public and private, as well as effective internal communications and response actions are key strengths that can be leveraged during cyber incident response. Accordingly, JV 3.0 highlighted the value of further expanding cross-sector communications, plans, and cooperation, which can lead to earlier identification and consistent engagement with additional community partners—private industry, utilities, state entities, federal partners, and military installations—and thereby improve the speed, agility, and effectiveness of whole-of-community cyber incident response. Participant testimonials and survey responses underscore the importance of these scenario-induced cross-sector communications.
@@ -236,6 +251,8 @@ A municipality’s well-established and well-developed relationships with local 
 - **5. JV 3.0 successfully brought together a wide array of public, private, military, and academic stakeholders during event planning, preparation, and execution for the first time. However, the consensus remains that these new relationships must be continually fostered, and additional stakeholders (those who did not participate in this iteration of JV) must be both identified and incorporated going forward through future, organically driven, JV-like efforts.**
 
     Municipal governments were the critical node for the JV bottom-up approach to increasing the resiliency of U.S. critical infrastructure. This iteration of JV continuously sought to facilitate a more robust whole-of-community response through the creation of new relationships, robust partnerships, and integrated joint response efforts. Although this was achieved to a great degree during JV 3.0 and fostered throughout its supporting events, efforts should be made to maintain these relationships while incorporating new and emerging stakeholders. This finding became clear when analyzing city-based communications following JV 3.0; it was evident that a concerted effort (driven by local communities) must be made going forward to continually strengthen and foster these new relationships, partnerships, and joint incident response efforts. Figure 15 is an illustration of emerging communication channels between the city and other important community stakeholders that began to take shape during JV 3.0. However, this graphic also depicts a need for further development, exercising, and codification of these new relationships not only with the participants that were present during this iteration, but also with additional stakeholders yet to be identified through future efforts that can continue to fill identified community gaps in resources, capabilities, and communication channels.
+
+![Figure 15: In this snapshot visualizationFigure 15: In this snapshot visualization](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-15.png)
 
 Figure 15: In this snapshot visualization, the organizational nodes representing different agencies are sorted in clockwise order by the number of requests they made to another agency. The more requests the agency made, the darker the color. In addition, the larger the node, the more requests the agency received. The colors of the edges represent the turns in which the relationship occurred: orange for turn 4, green for turn 5, blue for turn 6, and purple for turn 7.
 
@@ -389,4 +406,10 @@ One of the critical goals of the JV series is to develop a repeatable and adapta
 <sup>41</sup> *U.S. Army, Army Installations Strategy* (Washington, DC: U.S. Army, December 2020), 1–22.
 {: .fs-2}
 ***
+
+***
+
+### Table of Contents
+
+<ul><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-1/">1. FOREWORD</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-2/">2. ACKNOWLEDGMENTS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-3/">3. INTRODUCTION - JACK VOLTAIC 3.0</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-4/">4. JACK VOLTAIC RESEARCH METHODOLOGY</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-5/">5. EXECUTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-6/">6. FINDINGS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-7/">7. CONCLUSION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-8/">APPENDIX A – ACRONYMS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-9/">APPENDIX B – PARTNERS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-10/">APPENDIX C – SCENARIO</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-11/">APPENDIX D – LAW/POLICY TABLETOP EXERCISE (TTX)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-12/">APPENDIX E – LIVE-FIRE EXERCISE</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-13/">APPENDIX F – MILITARY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-14/">APPENDIX G – PRIVATE INDUSTRY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-15/">APPENDIX H – ALL HAZARDS ANALYSIS (AHA)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-16/">APPENDIX I – CIRI FORT-TO-PORT DISRUPTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-17/">APPENDIX J – REQUIRED DELIVERY DATE (RDD) SIMULATION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-18/">APPENDIX K – DSCA/DSCIR</a></li></ul>
 </div>

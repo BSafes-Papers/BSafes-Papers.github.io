@@ -19,6 +19,8 @@ nav_order: 40
 }
 </style>
 
+<div class="dont-break-out" markdown="1">
+
 1. TOC
 {:toc}
 
@@ -124,6 +126,8 @@ The ACI and its partners held a series of planning meetings and workshops that f
 
 When the Planning Committee shifted to a virtual execution, they recognized two key challenges: maintaining stakeholder engagement and increasing participant comfort with the required technology. The ACI, NUARI, and FTI Consulting sought to address these challenges by providing stakeholders and participants an opportunity to participate in three separate virtual TTXs. The first, Jack Pandemus, was a 3-hour event that served as a test for virtual execution using both NUARI’s DECIDE® and Microsoft Teams. Following Jack Pandemus, the ACI and its partners held two additional 4-hour events using DECIDE® and Microsoft Teams. These rehearsal events allowed the Planning Committee to refine its execution plan and provided participants additional opportunities to gain experience with the event and the various supporting platforms.
 
+![Figure 2: JV 3.0 Planning Time Line](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-2.png)
+
 Figure 2: JV 3.0 Planning Time Line
 
 ### 4.5. Partners
@@ -149,8 +153,11 @@ NUARI partnered with the ACI for JV 3.0. NUARI is a 501(c)(3) nonprofit organiza
 #### 4.5.6. AT&T/FirstNet
 FirstNet is the Nationwide communications platform dedicated to America’s first responders and public safety community, built with AT&T in a public-private partnership with the First Responder Network Authority. Prior to the pandemic, AT&T worked with the ACI to provide a full suite of advanced tools that would serve as the contingency communications infrastructure for the JV 3.0 exercise. These tools included two satellite on light trucks (SATCOLTs), 60 FirstNet-enabled devices, projection monitors, and a team to support the ongoing communications among the participants from local, state, and federal entities. AT&T also planned to provide the ACI with a video team to capture each exercise incident as it unfolded to create a documentary of the events in Charleston and Savannah. When the JV 3.0 event was moved to a virtual format due to COVID-19, AT&T provided a team of subject matter experts in emergency communications, who participated in both the online event and numerous planning sessions to educate the participants and provide guidance on crisis communications, restorative procedures, and FirstNet. AT&T’s participation in the planning, execution, and data analysis contributed greatly to the quality of the event and this report.
 
+![Figure 3: This AT&T SATCOLT is one of the tools that would have served as contingency communications infrastructure for JV 3.0 pre-COVID-19](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-3.png)
+
 Figure 3: This AT&T SATCOLT is one of the tools that would have served as contingency communications infrastructure for JV 3.0 pre-COVID-19
 
+![Figure 4: This AT&T cell on wings, also called a “flying COW,” would have been one of the FirstNet-enabled devices provided during the JV 3.0 LFX.](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-4.png)
 
 Figure 4: This AT&T cell on wings, also called a “flying COW,” would have been one of the FirstNet-enabled devices provided during the JV 3.0 LFX.
 
@@ -164,6 +171,8 @@ The Citadel hosted a JV 2.5 workshop in Charleston on May 21, 2019. The college 
 The ACI and Savannah Technical College (STC) began working together in January 2020. STC provided academic advisory support and facilitated face-to-face meetings prior to COVID-19. Also prior to COVID-19, the ACI and key partners completed a site visit and chose STC as the on-site location for the Savannah JV 3.0 exercise. More than 15 students registered to help as data collectors for the Savannah iteration. This both facilitated the success of JV 3.0 data collection and allowed students to gain valuable knowledge and insight into an aspect of cyber readiness needs and methods that could not be taught solely in the classroom. In addition, STC served as a member of the Distinguished Visitor Day and Scenario Design and Execution OPTs. In the future, STC will continue to collaborate with the ACI by incorporating the JV experience into future training exercises in the coastal GA region.
 
 ### 4.6. Participants
+
+![Table 1: JV 3.0 Participants](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-table-1.png)
 
 Table 1: JV 3.0 Participants
 
@@ -193,6 +202,8 @@ Additionally, the designed scenario introduced a certain level of stress prior t
 In designing the scenario, the Planning Team’s strategy was to use injects that progressively built upon one another, avoid introducing attribution, and keep incident causes ambiguous for as long as possible. This “death by a thousand cuts” approach allowed the ACI and its partners the opportunity to explore thresholds at which organizations would identify a cyber incident and request support. Keeping the cause of the incident ambiguous facilitated debate among participants, encouraged them to share their decision-making processes with other participants, and increased the realism of the exercise.
 
 The scenario was designed to be played over a series of turns and to weave together multiple independent threads—a set of sector-specific injects that build on themselves—to form a cohesive story. Each thread was built such that its specific injects would grow progressively more dangerous, either by spreading to new areas, organizations, or systems or by causing increased amounts of damage to affected entities. During the planning workshops leading up to JV 3.0, it was evident that many participating organizations, particularly in the municipalities, lacked the resources to adequately defend against a sophisticated adversary. Therefore, the Planning Team designed the scenario from a perspective of assumed compromise. Many of the scenario parameters, such as when malware exploitation would migrate from sector to sector, were deliberately kept opaque to the players. This approach forced participants to respond to incidents rather than attempt to defend against them. See figure 5 for a graphical display of the expected progression.
+
+![Figure 5: JV 3.0 Scenario Development Framework](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-5.png)
 
 Figure 5: JV 3.0 Scenario Development Framework
 
@@ -312,10 +323,14 @@ Validation and continuous refinement of the data collection and analysis plan oc
 #### 4.8.4. Data Sources
 To facilitate robust data collection, multiple platforms and functionalities were built into the overarching data collection approach, as described in table 2. 
 
+![Table 2: JV 3.0 Data Sources](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-table-2.png)
+
 Table 2: JV 3.0 Data Sources
 
 #### 4.8.5. Data Coding Schema
 A data classification coding scheme was developed for categorizing the exercise observations to assist in postprocessing efforts following execution. Data type tags, classification descriptions, and examples were outlined for data collectors prior to the event and included in the Jack Voltaic 3.0 Data Collector Guide distributed to all volunteers. Some of the data tags used in the JV 3.0 exercises are listed in table 3.
+
+![Table 3: JV 3.0 Data Tags](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-table-3.png)
 
 Table 3: JV 3.0 Data Tags
 
@@ -323,5 +338,11 @@ Table 3: JV 3.0 Data Tags
 Data collection and analysis planning culminated in the Jack Voltaic 3.0 Data Collector Guide, which was distributed to volunteer data collectors. The guide includes primary data collector responsibilities; classification codes for DECIDE®; and a common concept for capturing data, platforms, and mechanisms.
 
 Additionally, the Data Collection OPT conducted training sessions for volunteer data collectors and exercise controllers to ensure proficiency in platform features and data coding and familiarity with virtual table assignments. The second training session, which included an overview of the hypothetical scenario, allowed data collectors to practice logging data into DECIDE® (row 4 in Table 2, “JV 3.0 Data Sources”) using the data codes as they listened to a mock discussion among three “participants” (members of the JV 3.0 organization team).
+
+***
+
+### Table of Contents
+
+<ul><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-1/">1. FOREWORD</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-2/">2. ACKNOWLEDGMENTS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-3/">3. INTRODUCTION - JACK VOLTAIC 3.0</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-4/">4. JACK VOLTAIC RESEARCH METHODOLOGY</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-5/">5. EXECUTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-6/">6. FINDINGS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-7/">7. CONCLUSION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-8/">APPENDIX A – ACRONYMS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-9/">APPENDIX B – PARTNERS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-10/">APPENDIX C – SCENARIO</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-11/">APPENDIX D – LAW/POLICY TABLETOP EXERCISE (TTX)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-12/">APPENDIX E – LIVE-FIRE EXERCISE</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-13/">APPENDIX F – MILITARY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-14/">APPENDIX G – PRIVATE INDUSTRY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-15/">APPENDIX H – ALL HAZARDS ANALYSIS (AHA)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-16/">APPENDIX I – CIRI FORT-TO-PORT DISRUPTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-17/">APPENDIX J – REQUIRED DELIVERY DATE (RDD) SIMULATION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-18/">APPENDIX K – DSCA/DSCIR</a></li></ul>
 
 </div>

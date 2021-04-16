@@ -19,6 +19,7 @@ nav_order: 150
 }
 </style>
 
+<div class="dont-break-out" markdown="1">
 1. TOC
 {:toc}
 
@@ -53,6 +54,8 @@ The inject involving a compromise of natural gas compressor station firmware res
 
 - Participants had no concerns about being able to access the substation. Participants discussed potentially involving company security personnel in the response.
 
+![Figure 26: Excerpt from Turn 5 PowerPoint Slide—Natural Gas Compressor Stations](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-26.png)
+
 Figure 26: Excerpt from Turn 5 PowerPoint Slide—Natural Gas Compressor Stations
 
 ### H.3. Lessons Learned
@@ -65,5 +68,11 @@ Figure 26: Excerpt from Turn 5 PowerPoint Slide—Natural Gas Compressor Station
 Earlier engagement with service providers would allow for better understanding of the presence—or lack thereof—of alternate sources of critical products required for operations. This bottom-up level of detail would allow for more tailored scenario planning that could reveal supply chain issues that may only arise when alternate modes of operations are being leveraged.
 
 *Use of terminology and focus areas:* The primary focus of the impacts on the energy sector during the scenario was on the infrastructure involved with the distribution of the commodity (i.e., distribution substations or distribution pipelines). Impacts on these infrastructure resonate with the downstream asset owners who are depending on the commodity being provided, but the service providers were generally able to rectify the consequences of impacts at this level fairly quickly by either switching to manual operations or redirecting the load to a different set of distribution infrastructure. If the focus area of the impacts were to be shifted to the bulk transport of commodities (i.e., transmission substations or compressor stations), the impacts would be on a broader scale, but the response by the service providers to control the impact would not be as easily identifiable. Consideration should be given to transmission infrastructure in planning future injects and scenarios.
+
+***
+
+### Table of Contents
+
+<ul><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-1/">1. FOREWORD</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-2/">2. ACKNOWLEDGMENTS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-3/">3. INTRODUCTION - JACK VOLTAIC 3.0</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-4/">4. JACK VOLTAIC RESEARCH METHODOLOGY</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-5/">5. EXECUTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-6/">6. FINDINGS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-7/">7. CONCLUSION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-8/">APPENDIX A – ACRONYMS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-9/">APPENDIX B – PARTNERS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-10/">APPENDIX C – SCENARIO</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-11/">APPENDIX D – LAW/POLICY TABLETOP EXERCISE (TTX)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-12/">APPENDIX E – LIVE-FIRE EXERCISE</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-13/">APPENDIX F – MILITARY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-14/">APPENDIX G – PRIVATE INDUSTRY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-15/">APPENDIX H – ALL HAZARDS ANALYSIS (AHA)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-16/">APPENDIX I – CIRI FORT-TO-PORT DISRUPTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-17/">APPENDIX J – REQUIRED DELIVERY DATE (RDD) SIMULATION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-18/">APPENDIX K – DSCA/DSCIR</a></li></ul>
 
 </div>

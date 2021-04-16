@@ -19,6 +19,7 @@ nav_order: 140
 }
 </style>
 
+<div class="dont-break-out" markdown="1">
 1. TOC
 {:toc}
 
@@ -28,6 +29,8 @@ nav_order: 140
 Intrepid Response is a simple-to-use and affordable, mission-critical, mobile and web-based software solution that enables instant team communication, coordination, and collaboration over a common operating picture. It is uniquely designed to support the day-to-day operations of users in the field as well as incident/emergency management, base security, and surveillance operations. Intrepid Response can integrate with strategic-layer tools that would be found in a command and/or operations center. The software can operate with any cellular network, including Verizon, AT&T, etc. Intrepid Response is the only application of its kind that is FirstNet-certified for public safety, meaning it meets stringent requirements for usability, security, reliability and availability. As such, the application can be utilized in scenarios in which user priority and preemption are enabled.
 
 Intrepid Response is a user-friendly shared situational awareness system that comprises Android/iOS smartphone and web-based applications. The ecosystem provides an integrated suite of capability that comprises realtime geospatial data, emergency notifications, push-totalk voice communications, and multimedia sharing for resource management, team collaboration, and incident management. The platform may be deployed on a customer-hosted on-premise server or via secure cloudhosted solutions, including Amazon Web Services GovCloud. The mobile platform creates a real-time common operating picture for tactical and supervisory units while integrating with strategic tools for top-to-bottom command and control. The Intrepid Response platform supports all major operating systems, including native applications for both iOS and Android, plus browser apps for all significant modern browsers (Chrome, Internet Explorer 11, Edge, Firefox, and Safari).
+
+![Figure 25: Intrepid Response](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-25.png)
 
 Figure 25: Intrepid Response is a user-
 friendly situational awareness system comprised of Android/iOS smartphone and web-based applications.
@@ -51,6 +54,8 @@ Intrepid Networks’ observed results are discussed below from the shared situat
 #### G.1.1. Findings
 Intrepid Networks’ observations were gathered during the JV participants’ discussion and decisionmaking sessions that occurred throughout the experiment. Intrepid Networks intended to observe how decision-making processes may evolve while utilizing a common operating picture and collaboration platform. As a result of the exercise transitioning to a virtual venue due to COVID-19, Intrepid Networks pivoted from providing live mobile and web application access to participants for communication, collaboration, and coordination to providing static map images that evolved as the exercise proceeded. Intrepid Networks’ observations revealed that even these static map images provided a valuable means for participants to perceive; comprehend; project; and, to some extent, predict outcomes based on the variables realized in the earlier processes. Table 7 lists some issues encountered during the JV 3.0 exercise, Intrepid Networks’ observations, and Intrepid Response capabilities that can address these issues.
 
+![Table 7: Issues, Observations, and Intrepid Response Capabilities](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-table-7.png)
+
 Table 7: Issues, Observations, and Intrepid Response Capabilities
 
 #### G.1.2. Analysis
@@ -67,5 +72,11 @@ While Intrepid Response enhances situational awareness and collaboration, reduci
 4. Integrating data analytics into the Intrepid Response platform for improved automated recognition of a coordinated attack. 
 
 5. Implementing an automated after-action reporting feature that is tailored to a nationally accepted format to allow for continuous information sharing; evaluations; and improvements to tactics, policies, and procedures across disparate organizations in various areas of the country.
+
+***
+
+### Table of Contents
+
+<ul><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-1/">1. FOREWORD</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-2/">2. ACKNOWLEDGMENTS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-3/">3. INTRODUCTION - JACK VOLTAIC 3.0</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-4/">4. JACK VOLTAIC RESEARCH METHODOLOGY</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-5/">5. EXECUTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-6/">6. FINDINGS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-7/">7. CONCLUSION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-8/">APPENDIX A – ACRONYMS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-9/">APPENDIX B – PARTNERS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-10/">APPENDIX C – SCENARIO</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-11/">APPENDIX D – LAW/POLICY TABLETOP EXERCISE (TTX)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-12/">APPENDIX E – LIVE-FIRE EXERCISE</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-13/">APPENDIX F – MILITARY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-14/">APPENDIX G – PRIVATE INDUSTRY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-15/">APPENDIX H – ALL HAZARDS ANALYSIS (AHA)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-16/">APPENDIX I – CIRI FORT-TO-PORT DISRUPTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-17/">APPENDIX J – REQUIRED DELIVERY DATE (RDD) SIMULATION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-18/">APPENDIX K – DSCA/DSCIR</a></li></ul>
 
 </div>

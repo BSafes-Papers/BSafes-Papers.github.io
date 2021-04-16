@@ -19,6 +19,7 @@ nav_order: 50
 }
 </style>
 
+<div class="dont-break-out" markdown="1">
 1. TOC
 {:toc}
 
@@ -80,6 +81,8 @@ The JV 3.0 exercise was administered by an exercise team, or “White Cell” (s
 
 - **DECIDE® controllers** managed the DECIDE® experience of each event, including planning; building; deploying; operating; maintaining; and adjusting, if necessary, a functional environment to support the event. They troubleshot and addressed any technical issues with the platform and assisted event controllers during the event.
 
+![Figure 6: Exercise Team (White Cell)](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-6.png)
+
 Figure 6: Exercise Team (White Cell)
 
 #### 5.2.4. Event Format
@@ -107,6 +110,8 @@ Players could request information from an agency or sector not participating in 
 
 - Phase 3—Integrate (approximately 45 minutes): The final phase, Integrate, was communityfocused and leveraged Microsoft Teams for a facilitated discussion on how the various organizations responded to the events of the turn. This phase required all participants to interact with the facilitator lead at the main table, which included all participants and the White Cell. During this phase, the facilitator lead had participants share their findings from the previous two phases with the community through directed and open-ended questions. At the end of this phase, participants completed survey questions. 
 
+![Figure 7: Turn Phases](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-7.png)
+
 Figure 7: Turn Phases
 
 During each phase, data collectors used the DECIDE® platform to record observations based on their assigned areas. 
@@ -116,10 +121,14 @@ Four ROC Drills were held virtually: two for Charleston on August 18, 2020, and 
 
 The ROC Drills followed the same basic structure with respect to technical platform, player and White Cell roles and responsibilities, and event format as the main event, except that each drill was a 4-hour event. The first drill for each city included turns 1–3, and the second drill included turns 3–4. See table 4 for the schedule of the second ROC Drill. This effectively familiarized players and White Cell personnel with the scenario and helped solidify the format of the main event. In every drill—and, to a lesser extent, the main event—there were log-in and other technical issues, so overlapping the last turn of the rehearsal with the first turn of the main event mitigated the effect of some participants struggling to join on time.
 
+![Table 4: Schedule of Second ROC Drill](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-table-4.png)
+
 Table 4: Schedule of Second ROC Drill
 
 ### 5.3. Event
 Using the lessons learned from the Jack Pandemus exercise and the ROC Drills, the JV 3.0 exercises were conducted virtually for Charleston on September 22, 2020, and for Savannah on September 24, 2020. Because all participants logged in using different browsers from different locations around the country, with some participants logging in at home and others logging in from behind government or corporate firewalls, there were some technical issues with respect to logging in and seeing information presented in DECIDE®. Technical issues affected fewer than 10 participants per event and were resolved for all participants within 30 minutes of commencement. Having rehearsed event execution during the ROC Drills, the ACI was able to begin and end all turns within 1 minute of the planned times. Overall, execution of both events was smooth and efficient after the early-morning technical issues had been resolved. The event schedule is shown in table 5.
+
+![Table 5: Event Schedule](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-table-5.png)
 
 Table 5: Event Schedule
 
@@ -170,5 +179,10 @@ Some highlights of the executive response included the following:
 
 - There was widespread agreement that the ACI and other cybersecurity and national security organizations should continue to hold exercises like JV and continue focusing on including state and local representatives in these valuable efforts.
 
+***
+
+### Table of Contents
+
+<ul><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-1/">1. FOREWORD</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-2/">2. ACKNOWLEDGMENTS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-3/">3. INTRODUCTION - JACK VOLTAIC 3.0</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-4/">4. JACK VOLTAIC RESEARCH METHODOLOGY</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-5/">5. EXECUTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-6/">6. FINDINGS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-7/">7. CONCLUSION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-8/">APPENDIX A – ACRONYMS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-9/">APPENDIX B – PARTNERS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-10/">APPENDIX C – SCENARIO</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-11/">APPENDIX D – LAW/POLICY TABLETOP EXERCISE (TTX)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-12/">APPENDIX E – LIVE-FIRE EXERCISE</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-13/">APPENDIX F – MILITARY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-14/">APPENDIX G – PRIVATE INDUSTRY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-15/">APPENDIX H – ALL HAZARDS ANALYSIS (AHA)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-16/">APPENDIX I – CIRI FORT-TO-PORT DISRUPTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-17/">APPENDIX J – REQUIRED DELIVERY DATE (RDD) SIMULATION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-18/">APPENDIX K – DSCA/DSCIR</a></li></ul>
 
 </div>

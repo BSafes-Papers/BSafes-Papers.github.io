@@ -19,6 +19,7 @@ nav_order: 170
 }
 </style>
 
+<div class="dont-break-out" markdown="1">
 1. TOC
 {:toc}
 
@@ -33,11 +34,13 @@ Table 10: Key Processes and Their Parameters
 
 The ACI looked at two options for each alternative. The process diagram for each alternative is shown in figure 38. For the alternative of remaining at the original port, there is a simulation that governs container spillage into the channel and an option that focuses only on remediating the various incidents, without including the spillage. In the case of relocating ports, the ACI presents the results of moving to ports both 200 and 1,000 miles from the point of departure. The following sections discuss the assumptions and results associated with each alternative.
 
+![Figure 38: Process Diagrams for the Two Alternatives](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-38.png)
 Figure 38: Process Diagrams for the Two Alternatives
 
 ### J.1. Results: Remain at Original Port
 For our first result, we look at staying with the original port, given the requirement to clear the channel. In this alternative, equipment that is at the port remains, and equipment moving to the port will have to return after traffic and protest issues have been resolved. We assume that movement to the port will not begin until the port is reopened, which includes establishing physical security, remediating malware, and clearing the channel. The remediation, reconfiguration, and movement for both rail and line haul occur in series, but are compared in parallel. We ran 10,000 simulations using 50 miles as the distance from point of origin to the port. In figure 39, a histogram of the results is shown on the left, and the minimum, maximum, and mean for each process is shown on the right.
 
+![Figure 39: Original Port: Hold Movement until Port Has Been Fixed](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-39.png)
 Figure 39: Original Port: Hold Movement until Port Has Been Fixed
 
 Using the histogram, we can calculate the probability that the equipment will make RDD by summing up the number of simulations that occurred in less than or equal to 28 days (the number of days until June 1, 2020). In this case, there is a 23.4-percent chance that the equipment will make it by June 1, indicating that the scenario successfully disrupted force projection operations. Figure 39 illustrates that fixing the port (malware remediation and clearing the channel) is the most time-consuming process associated with this alternative.
@@ -48,6 +51,7 @@ Table 11: Fixing the Port: Travel Times and Associated Probabilities
 
 Our second option for this alternative is to look at a situation in which there are no issues with the channel. In this case, we have removed a significant physical effect of the cyber intrusion to determine how much impact remediating the other intrusions (traffic lights, rail failure, and truck crash) will have on RDD. Using the same assumptions as before, we ran 10,000 simulations using 50 miles as the distance from point of origin to the port. Figure 40 shows a histogram of the results on the left and the minimum, maximum, and mean for each process on the right.
 
+![Figure 40: Original Port: Hold Movement](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-40.png)
 Figure 40: Original Port: Hold Movement until Port Has Been Fixed (No Channel Issues)
 
 In this situation, we see there is a 77.25-percent chance that the equipment will make it by June 1, indicating that the scenario (minus channel issues) created some disruption to force projection operations. Table 12 provides probabilities for additional days, showing that the probability goes above 90 percent for 30 days.
@@ -59,6 +63,7 @@ In terms of the processes, we see that vessel travel and the port operations at 
 ### J.2. Results: Shift to a New Port
 This result looks at the alternative in which the commander chooses to shift ports. The first case considers the new port to be 200 miles away. For this alternative, we assume that the identification of a new port occurs first, followed by adjustment of the contracts for both rail and line haul (as well as convoy planning). Based on the parameters for the distributions, traffic congestion and return-tobase movement are dominated by replanning the new port and therefore are not considered. The remediation, replanning, reconfiguring, and movement for rail, line haul, and convoy occur in series. Finally, we assume that the equipment stranded at the original port will make it to the seaport of debarkation at the same time as or before the other equipment. Again, we ran 10,000 simulations and produced a graphic (figure 41) showing a histogram of the results on the left and analyses of the processes on the right.
 
+![Figure 41: New Port: 200 Miles Away](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-41.png)
 Figure 41: New Port: 200 Miles Away
 
 For this alternative, there is a 1.28-percent chance that the equipment will make it by RDD, with over 95-percent probability of it occurring after 40 days (June 13). It follows that shifting to a port further away will reduce the probability; for a port 1,000 miles away (e.g., shifting from Charleston to Beaumont, Texas), there is a less-than-1-percent chance that the equipment will make RDD. Table 13 shows a breakdown of the probabilities by days for the port 200 miles away as well as the port 1,000 miles away.
@@ -80,5 +85,11 @@ Based on this simulation of the events occurring after turn 5, we find that cybe
 
 ### J.4. Source Code
 The source code used in this simulation is available by request to ACI.JackVoltaic@westpoint.edu.
+
+***
+
+### Table of Contents
+
+<ul><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-1/">1. FOREWORD</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-2/">2. ACKNOWLEDGMENTS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-3/">3. INTRODUCTION - JACK VOLTAIC 3.0</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-4/">4. JACK VOLTAIC RESEARCH METHODOLOGY</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-5/">5. EXECUTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-6/">6. FINDINGS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-7/">7. CONCLUSION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-8/">APPENDIX A – ACRONYMS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-9/">APPENDIX B – PARTNERS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-10/">APPENDIX C – SCENARIO</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-11/">APPENDIX D – LAW/POLICY TABLETOP EXERCISE (TTX)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-12/">APPENDIX E – LIVE-FIRE EXERCISE</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-13/">APPENDIX F – MILITARY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-14/">APPENDIX G – PRIVATE INDUSTRY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-15/">APPENDIX H – ALL HAZARDS ANALYSIS (AHA)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-16/">APPENDIX I – CIRI FORT-TO-PORT DISRUPTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-17/">APPENDIX J – REQUIRED DELIVERY DATE (RDD) SIMULATION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-18/">APPENDIX K – DSCA/DSCIR</a></li></ul>
 
 </div>

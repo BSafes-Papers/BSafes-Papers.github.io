@@ -19,6 +19,7 @@ nav_order: 160
 }
 </style>
 
+<div class="dont-break-out" markdown="1">
 1. TOC
 {:toc}
 
@@ -41,10 +42,14 @@ Given the increased dependence on communications/IT systems because of the pande
 ### Data Sources
 The table below illustrates the data sources used in the analysis.
 
+![Table 8: JV 3.0 Data Sources](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-table-8.png)
+
 Table 8: JV 3.0 Data Sources
 
 ### Critical Infrastructure Networks
 At a high level, CIRI has created a multilayered network whose layers correspond to critical infrastructure networks. This study focuses on interactions between the communications/IT sectors and their impact on the transportation sector. If desired, future work could integrate dependencies on the electrical power system, building on expertise gained via the Defense Advanced Research Projects Agency Rapid Attack Detection, Isolation and Characterization Systems at the University of Illinois at Urbana-Champaign (UIUC).<sup>52</sup>
+
+![Figure 27: A Multilayered Network Model for Critical Infrastructure](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-27.png)
 
 Figure 27: A Multilayered Network Model for Critical Infrastructure
 
@@ -77,6 +82,7 @@ This section provides an overview of three types of cyber-originating disruption
 ### Baseline Context
 The context for discussion of these disruptions is the SDDC Baseline Plan of Action and Milestones that was provided as part of the JV 3.0 exercises. The time-location diagram in figure 28 plots intermodal road and rail movements from Fort Stewart to the North Charleston Terminal used by the 841st Transportation Battalion command. Commercial line haul, convoy, and train movements over the course of the exercise time line are shown. The accompanying table presents the dates used to instantiate the diagram. Times from source to destination along optimal routes were calibrated via a combination of feedback from SDDC and Google Maps, as discussed in more detail below.
 
+![Figure 28: Intermodal Road and Rail Movements](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-28.png)
 
 Figure 28: Intermodal Road and Rail Movements from Fort Stewart to North Charleston Terminal Used by the 841st Transportation Battalion Command.
 
@@ -88,6 +94,8 @@ One possible cause of switching station malfunctions includes spoofing or jammin
 After consulting with SDDC, the team learned that most rail switches in the contiguous United States are controlled by line of sight. Although the rail companies have a smart system for checking the rail via a networked service, track switching depends on radio signals sent from the engine to the switch. Rather than derailment via infrared signal hacking, a replay attack could be employed to spoof a signal and switch the track. Alternatively, a jammed radio signal could cause derailment because a train may need to adjust its speed when traversing a junction. Beyond rail delays, a secondary impact of a derailment on the communications network could be a severed fiber cable because fiber is also placed along rail rights-of-way.
 
 *Data Sources and Calibration:* To model such a disruption, the CIRI team constructed a rail transportation network based upon publicly available GIS data from the United States Geological Survey (USGS) National Transportation Map (DS-TR.N-3) as well as the Federal Railroad Administration’s rail junctions (DS-TR.N-5). Vehicle schedules provided by SDDC were used to determine when trains left Fort Stewart and when they were expected to arrive at the Port of Charleston. The CIRI/ACI team consulted with SDDC to calibrate the baseline routes computed, the duration of the train route (18 hours), and the speed of the train. The duration of the train on the route, as noted during the discussion, does not include staging, prepping, and loading of material onto the train. Other factors that may affect train speed include tunnels, bridge limitations, terrain, and environment (e.g., flooding); these were not modeled.
+
+![Figure 29: Baseline rail movements](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-29.png)
 
 Figure 29: Baseline rail movements from Fort Stewart to Charleston (shown in green) along a regional rail network provided by USGS (shown in orange).
 
@@ -101,6 +109,8 @@ Figure 29: Baseline rail movements from Fort Stewart to Charleston (shown in gre
 
 Figure 29 illustrates the regional rail network provided by the USGS National Transportation Map (shown in orange). One key takeaway is that in the case of the Port of Charleston, there appears to be one direct route from Fort Stewart to the Port of Charleston (shown in green). This could lead to a single point of rail failure. A second route through Columbia, though less direct, provides a potential alternative route. The impact of a derailment on the SDDC Plan of Action and Milestones is illustrated in figure 30.
 
+![Figure 30: Impact of a Derailment on the SDDC Plan of Action and Milestones](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-30.png)
+
 Figure 30: Impact of a Derailment on the SDDC Plan of Action and Milestones
 
 The derailment CIRI modeled occurs shortly after the junction at Yemassee, where the line from Fort Stewart branches between Charleston and Columbia, SC. Note that to get the pieces from the derailed May 1 train, line haul trucks (shown in orange) are sent from the point of disruption (just after the railway splits in Yemassee) to the North Charleston Terminal. Based on fieldwork with Port Everglades and the Florida East Coast Railway, CIRI estimated a derailment would take 2 days to clear. As a result, the train on May 2 (shown in dashed black lines) as well as possibly May 3 (not shown) are affected. There may be three options to address this delay: wait to move the train until the derailment has been cleared; use another mode of transportation to the port; or, if possible, reroute the trains scheduled to depart around the obstructed railway.
@@ -113,9 +123,13 @@ A third option, if the derailment allowed it, would be to reroute the scheduled 
 
 According to SDDC, this alternative route is determined by the rail company (Norfolk Southern). The PDT multicommodity network flow optimizer selected a route through Columbia to explore secondary effects on transportation and communications systems as goods move via this alternative route (shown in figure 31).
 
+![Figure 31: A derailment close to the junction at Yemassee](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-31.png)
+
 Figure 31: A derailment close to the junction at Yemassee would force a delay and possibly reroute the train. Regional routes are shown for a derailment whose impact lasts from April 26–28 (day 3). Alternate routes (shown in red) are for trains 2 and 3.
 
 Rerouting vehicle movements has secondary effects on social, local transportation, and communications domains. First, from a social standpoint, JV 3.0 chat logs suggest that rerouting movements would require a battalion commander to request support from a higher command: “841st Battalion: Roadblock requires support from higher command, battalion commander will submit a written doc to command requesting support to look at diverting assets from brigade to request follow on actions. Engage with Base and Port Readiness Committee.” Second, local transportation systems in Charleston (or even Columbia) may be affected if pieces are rerouted via vehicle or train. Figure 32 illustrates a local view of train routes taken through Charleston under normal (yellow) and disrupted (red) conditions. The section on Disruption 3 (D3) later in this appendix demonstrates how the choice of route may affect the ability of an adversary to further disrupt movements. Third, the impact of rerouting vehicle movements on the communication domain is the focus of the next section, “Disruption 2 (D2).”
+
+![Figure 32: Rerouting movements in a rural location](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-32.png)
 
 Figure 32: Rerouting movements in a rural location can impact local movements through the city. Baseline and disrupted transportation flows (yellow and red, respectively) are illustrated here.
 
@@ -149,11 +163,17 @@ An additional concern is man-in-the-middle (MITM) attacks via unmanned aerial ve
 
 Data Sources and Calibration: In addition to the aforementioned data sources provided by USGS, this analysis uses the Department of Homeland Security (DHS) Homeland Infrastructure Foundation-Level Data’s (HIFLD’s) GIS data on cell phone tower locations (DS-CM.N-3). These locations were used to compute a Voronoi diagram to determine which cell phone towers provided which communications along the railway network.
 
+![Figure 33 illustrates the cell phone tower coverage](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-33.png)
+
 Figure 33 illustrates the cell phone tower coverage along several rail routes from Fort Stewart to Charleston’s North Terminal. The interaction between the choice of route taken and communications networks should be considered to protect potentially sensitive information about movements.
+
+![Figure 33: This figure depicts coverage provided by cell phone towers](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-33.png)
 
 Figure 33: This figure depicts coverage provided by cell phone towers modeled as a Voronoi diagram. The points within each blue region connect to the same (closest) tower. Choice of route taken by rail should also consider the communications networks upon which movements depend.
 
 For example, changing the route in response to a derailment, as in Disruption 1, affects the cell phone towers (and potentially companies) upon which power projection depends. This is shown in more detail for Charleston in figure 34.
+
+![Figure 34: Choice of route taken by rail](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-34.png)
 
 Figure 34: Choice of route taken by rail should also consider the communications networks (and companies) upon which movements depend.
 
@@ -185,6 +205,8 @@ reduced in size via the aforementioned method based on hierarchy trees.<sup>63</
 
 Figure 35 illustrates baseline road and rail routes through Charleston (shown in green and blue, respectively) as well as rerouted rail routes in response to D1 (shown in red). As a result of this response to D1, there appears to be a potential single point of disruption along the Mark Clark Expressway where road movements are affected. Moreover, this point of convergence within a small geographic region opens up opportunities for communications network disruptions or data gathering, as discussed in D2.
 
+![Figure 35 illustrates baseline road and rail routes](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-35.png)
+
 Figure 35: Baseline road routes through Charleston shown alongside baseline and disrupted rail routes (blue and red) following derailment in D1.
 
 CIRI modeled a 1-day protest. This protest would directly affect commercial line haul, which travels from fort to port if held sometime during April 27–30. In the context of train derailment mitigation actions (D1), a protest held on May 1 could interfere with additional line haul traffic carrying pieces from the derailed train. In the context of response actions to transport pieces from the May 2 train, a protest on May 2–4 could interfere with either commercial long-haul trucks carrying rescheduled pieces or rerouted trains moving via Columbia.
@@ -197,6 +219,8 @@ Specifically, if the protestors were able to simultaneously disrupt the nearby r
 ***
 
 Figure 36 illustrates the recomputed optimal road and rail routes (shown in red and purple, respectively), given a hybrid disruption consisting of a rural train derailment and city protestors demonstrating along the highway. We note that this shifts the intersection of rail, traffic, and cell phone towers to a new, single geographic region at the intersection of Remount Road and Virginia Avenue
+
+![Figure 36: Rerouting road and rail movements](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-36.png)
 
 Figure 36: Rerouting road and rail movements in response to a protest on Mark Clark Expressway results in a new potential disruption point at the intersection of Remount Road and Virginia Avenue.
 
@@ -211,6 +235,8 @@ The scenarios considered in this appendix are based on historical incidents in w
 
 In table 9, each incident is grouped by the type of stakeholder that was affected; the corresponding affected systems and Common Attack Pattern Enumeration and Classification identifiers (CAPEC-IDs) are also listed.<sup>65</sup>
 
+![Table 9: Historical Communication/IT System Incidents among MTS Stakeholders](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-table-9-1.png)
+![Table 9: Historical Communication/IT System Incidents among MTS Stakeholders](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-table-9-2.png)
 Table 9: Historical Communication/IT System Incidents among MTS Stakeholders
 
 ***
@@ -222,6 +248,8 @@ Table 9: Historical Communication/IT System Incidents among MTS Stakeholders
 
 ### Future Work
 This research, jointly conducted by the ACI and CIRI, has sought to quantify the impact of disruptions on cross-organizational, interinfrastructure dependencies. This appendix has focused on cyberoriginating disruptions to the MTS at a regional and municipal level. However, prior work sponsored by CIRI focused on a detailed port view and the impact of disruptions to services provided by port stakeholder communications/IT networks. A detailed study of the impact of a GOS outage on various stakeholders as well as the impact that various stakeholders have on overall port operation may be found in CIRI’s 2019 Simulation Winter Conference paper.66 Such cross-organizational dependencies and how they affect overall port operation may be of particular interest to NATO and United States Indo-Pacific Command given programs such as the Belt and Road Initiative. Ongoing work in the communications/IT sector is looking to emulate and quantify the impact of targeted ransomware attacks on automated shipping ports. This work is actively being developed in collaboration with Ports of Auckland, New Zealand, and Mandiant/FireEye industrial control system team members.
+
+![Figure 37: Geographic Proximity of Electrical Power Lines](https://statics.bsafes.com/images/papers/jack-voltaic-3-0-cyber-research-report-fig-37.png)
 
 Figure 37: Geographic Proximity of Electrical Power Lines, Substations, and Power Plants at a Regional and Municipal Level
 
@@ -245,5 +273,11 @@ The PDT provides stakeholders with the ability to accurately model commodity flo
 <sup>68</sup> Martin Associates, *2018 National Economic Impact of the U.S. Coastal Port System* (Alexandria, VA: American Association of Port Authorities, March 2019).
 {: .fs-2}
 ***
+
+***
+
+### Table of Contents
+
+<ul><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-1/">1. FOREWORD</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-2/">2. ACKNOWLEDGMENTS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-3/">3. INTRODUCTION - JACK VOLTAIC 3.0</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-4/">4. JACK VOLTAIC RESEARCH METHODOLOGY</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-5/">5. EXECUTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-6/">6. FINDINGS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-7/">7. CONCLUSION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-8/">APPENDIX A – ACRONYMS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-9/">APPENDIX B – PARTNERS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-10/">APPENDIX C – SCENARIO</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-11/">APPENDIX D – LAW/POLICY TABLETOP EXERCISE (TTX)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-12/">APPENDIX E – LIVE-FIRE EXERCISE</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-13/">APPENDIX F – MILITARY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-14/">APPENDIX G – PRIVATE INDUSTRY TESTIMONIALS</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-15/">APPENDIX H – ALL HAZARDS ANALYSIS (AHA)</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-16/">APPENDIX I – CIRI FORT-TO-PORT DISRUPTION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-17/">APPENDIX J – REQUIRED DELIVERY DATE (RDD) SIMULATION</a></li><li> <a href="/docs/internet/jack-voltaic-3-0-cyber-research-report-18/">APPENDIX K – DSCA/DSCIR</a></li></ul>
 
 </div>
