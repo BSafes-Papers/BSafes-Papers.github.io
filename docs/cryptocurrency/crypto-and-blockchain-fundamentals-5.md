@@ -105,7 +105,7 @@ Table 2: Comparison of Crypto Funding Models
 
 #### Table of Contents
 {: .no_toc}
-<ul><li> <a href="http://localhost:4000/docs/cryptocurrency/crypto-and-blockchain-fundamentals-1/">I. FROM THE “INTERNET OF INFORMATION” TO THE “INTERNET OF VALUE”</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/crypto-and-blockchain-fundamentals-2/">II. THE INGENUITY AND LIMITATIONS OF BITCOIN</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/crypto-and-blockchain-fundamentals-3/">III. Beyond Bitcoin - Other Technical Innovations</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/crypto-and-blockchain-fundamentals-4/">IV. BLOCKCHAIN-BASED APPLICATION EXAMPLES</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/crypto-and-blockchain-fundamentals-5/">V. New Fundraising Models</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/crypto-and-blockchain-fundamentals-6/">VI. WHY THE “INTERNET OF VALUE” NEEDS LEGAL PRACTITIONERS</a></li></ul>
-</div>
+
+<ul><li> <a href="/docs/cryptocurrency/crypto-and-blockchain-fundamentals-1/">I. FROM THE “INTERNET OF INFORMATION” TO THE “INTERNET OF VALUE”</a></li><li> <a href="/docs/cryptocurrency/crypto-and-blockchain-fundamentals-2/">II. THE INGENUITY AND LIMITATIONS OF BITCOIN</a></li><li> <a href="/docs/cryptocurrency/crypto-and-blockchain-fundamentals-3/">III. Beyond Bitcoin - Other Technical Innovations</a></li><li> <a href="/docs/cryptocurrency/crypto-and-blockchain-fundamentals-4/">IV. BLOCKCHAIN-BASED APPLICATION EXAMPLES</a></li><li> <a href="/docs/cryptocurrency/crypto-and-blockchain-fundamentals-5/">V. New Fundraising Models</a></li><li> <a href="/docs/cryptocurrency/crypto-and-blockchain-fundamentals-6/">VI. WHY THE “INTERNET OF VALUE” NEEDS LEGAL PRACTITIONERS</a></li></ul>
 
 </div>
