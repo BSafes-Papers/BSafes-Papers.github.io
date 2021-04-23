@@ -17,6 +17,21 @@ nav_order: 9800400
   /* Instead use this non-standard one: */
   word-break: break-word;
 }
+
+.youtube-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.youtube-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 </style>
 
 <div class="dont-break-out" markdown="1">
@@ -35,7 +50,10 @@ Volume 73, Number 2, Article 4
  Dr. Mary C. Lacity is a Walton Professor of Information Systems and Director of the Blockchain Center of Excellence in the Sam M. Walton College of Business at the University of Arkansas. She was previously the Curators’ Distinguished Professor at the University of Missouri-St. Louis. She has held visiting positions at MIT, the London School of Economics, Washington University, and Oxford University. She is a Certified Outsourcing Professional® and Senior Editor for *MIS Quarterly Executive.* Her recent research focuses on improving business services using Robotic Process Automation (RPA), Cognitive Automation (CA), and Blockchain technologies. She has given keynote speeches and executive seminars worldwide, and has served as an expert witness for the U.S. Congress. She was inducted into the IAOP’s Outsourcing Hall of Fame in 2014, one of only three academics to ever be inducted. She has published twenty-nine books, including, A Manager’s Guide to Blockchains for Business. Her publications have appeared in the *Harvard Business Review, Sloan Management Review, MIS Quarterly, MIS Quarterly Executive, IEEE Computer, Communications of the ACM*, and many other outlets.   
 [Website](https://walton.uark.edu/departments/information-systems/directory/uid/mclacity/name/Mary+Lacity/)
 
-<iframe src="https://www.youtube.com/embed/SmDNheAEmvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+<div class="youtube-container">
+<iframe width="100%" src="https://www.youtube.com/embed/SmDNheAEmvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="youtube-video"></iframe>
+</div>
+
 **Video:** The Fusion of RPA and Cognitive - A Conversation with Professor Mary Lacity 
 
 ##### Recommended Citation
