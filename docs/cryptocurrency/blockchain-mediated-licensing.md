@@ -308,11 +308,243 @@ For an essential reading of this report, we recommend reading the Literature Rev
 
 #### List of Abbreviations and Acronyms
 
+**ADR** Alternative Dispute Resolution
 
+**AMP** Allocation for Music Producers Act
 
+**API** Application Programming Interface
 
+**ASCAP** American Society for Composers, Authors and Publishers
 
+**AT** Audit Template
 
+**BY** Attribution
+
+**CBD** Crea-based Dollar
+
+**CC** Creative Commons
+
+**ccREL** Creative Commons Rights Expression Language
+
+**CC BY** Attribution
+
+**CC BY-SA** Attribution-ShareAlike
+
+**CC BY-ND** Attribution NoDerivs
+
+**CC BY-NC** Attribution NonCommercial
+
+**CC BY-NC-ND** Attribution-NonCommercial-NoDerivs
+
+**CC BY-NC-SA** Attribution-NonCommercial-ShareAlike
+
+**CGY** Crea Energy
+
+**CID** Content Identifier
+
+**CISAC** International Confederation of Societies of Authors and Composers
+
+**CLASSICS** Compensating Legacy Artists for their Songs, Service, & Important Contributions to Society
+
+**CMO** Collective Management Organization
+
+**COALA-IP** Coalition of Automated Legal Application - Intellectual Property
+
+**CWR** Common Works Registration
+
+**DAO** Decentralized/Distributed Autonomous Organization
+
+**DApp** Decentralized Application
+
+**DC** Draft Commentary
+
+**DDoS** Distributed Denial of Service
+
+**DeFi** Decentralized Finance
+
+**DID** Decentralzied Identifiers
+
+**DHT** Distributed Hash Table
+
+**DLP** Drafting Legal Prose
+
+**DLT** Distributed Ledger Technology
+
+**DMCA** Digital Millennium Copyright Act
+
+**DOJ** Department of Justice
+
+**DPoS** Delegated Proof-of-Stake
+
+**DRM** Digital Rights Management
+
+**DSP** Digital Music Service Providers
+
+**ERC** Ethereum Request for Comments
+
+**E-sign** Electronic Records in Global and National Commerce Act
+
+**EM** Entity Model
+
+**ETH** Ether
+
+**EU** European Union
+
+**EUIPO** European Union Intellectual Property Office
+
+**EVM** Ethereum Virtual Machine
+
+**FAQ** Frequently Asked Questions
+
+**GDPR** General Data Protection Regulation
+
+**GUI** Graphical User Interface
+
+**HTTP** Hypertext Transfer Protocol
+
+**ILP** InterLedger Protocol
+
+**IP** Intellectual Property
+
+**IPFS** InterPlanetary File System
+
+**IPLD** InterPlanetary Linked Data
+
+**ISNI** International Standard Name Identier
+
+**ISP** Internet Service Provider
+
+**ISRC** International Standard Recording Code
+
+**ISWC** International Standard Musical Work Code
+
+**IT** Information Technology
+
+**JSON** JavaScript Object Notation
+
+**JSON-LD** JavaScript Object Notation-Linked Data
+
+**LBC** LBRY Credits
+
+**LCC** Linked Content Coalition
+
+**LD** Linked Data
+
+**MAR** Minimum Automation Requirements
+
+**MCF** Musicoin Foundation
+
+**MIT** Massachusetts Institute of Technology
+
+**MLC** Mechanical Licensing Collective
+
+**MLR** Minimum Legal Requirements
+
+**MMA** Music Modernization Act
+
+**MME** Music Moves Europe
+
+**MRO** Mechanical Rights Organization
+
+**MTR** Minimum Technical Requirements
+
+**MVD** Minimum Viable Data
+
+**NC** NonCommercial
+
+**ND** NoDerivs
+
+**NFT** Non-fungible Token
+
+**NOI** Notice of Intention to Obtain a Compulsory License
+
+**OMI** Open Music Initiative
+
+**PKI** Public-Key Infrastructure
+
+**PNK** Pinakion
+
+**PoC** Proof-of-Concept
+
+**PoS** Proof-of-Stake
+
+**PoW** Proof-of-Work
+
+**PPP** Pay-Per-Play
+
+**PRO** Performing Rights Organization
+
+**PSC** Programming Software Components
+
+**PTD** Practical Tokenized Drafting
+
+**P2P** Peer-to-Peer
+
+**P&S** Prose and Software
+
+**RC** Ricardian Contract
+
+**RDF** Resource Description Framework
+
+**REL** Rights Expression Language
+
+**RMI** Rights Management Information
+
+**RRM** Rights Reference Model
+
+**RL** Release License
+
+**SA** ShareAlike
+
+**SACEM** Society of Authors, Composers and Publishers of Music
+
+**SSID** Self-Sovereign Identity
+
+**ToS** Terms of Service
+
+**TPS** Transactions-per-second
+
+**TRIPS** Trade-Related Aspects of Intellectual Property Rights
+
+**TML** Tokenized Music License
+
+**TPM** Technological Protection Measures
+
+**TT** Test Template
+
+**UBI** Universal Basic Income
+
+**UCC** Universal Copyright Convention
+
+**UCC Art. 2** Uniform Commercial Code Article 2
+
+**UETA** Uniform Electronic Transactions Act
+
+**UNCITRAL** United Nations Commission on International Trade Law
+
+**URI** Uniform Resource Identifier
+
+**URL** Uniform Resource Locator
+
+**US/USA** United States of America
+
+**USD** United States of America Dollar
+
+**USPTO** United States Patent and Trademark Oce
+
+**VARA** Visual Artists Rights Act
+
+**WCT** World Intellectual Property Organization Copyright Treaty
+
+**WIPO** World Intellectual Property Organization
+
+**WTO** World Trade Organization
+
+**W3C** WorldWideWeb Consortium
+
+**XML** eXtensible Markup Language
+
+**ZKP** Zero-Knowledge Proof
 
 ##### Abstract
 Licensing is one of the essential means of exploiting the monetary value of a musical work, and yet it is an area fraught with many issues and transactional costs which make it a di cult process for individuals and organizations. Many issues in music licensing arise from the legal complexity (e.g., national and international copyright law), business complexity (authentication, tracking, accounting, etc.), value web complexity (transparency of relationships among stakeholders), and technical complexity (e.g., establishing a global repertoire database for music, su cient metadata standards) of working with music. Then, in addition to these issues, there are speci c transactional costs (identi cation, negotiation, monitoring, and enforcement) associated with the licensing process. To mitigate the complexity and transactional costs associated with music and the licensing process, researchers and technologists have been investigating how new technologies and design models from the Web3 space, such as blockchain, linked data and Ricardian Contracts, can automate processes to reduce complexity, speed up payments, improve tracking, and provide other bene ts in the music industry. In our report, we make our own attempt to reduce the complexity and transactional costs in the licensing process by developing an automated music license. In doing so, we  rst conducted a literature review synthesizing the intersection of music complexity and Web<sup>3</sup> technologies to provide background and context to automating music licensing. Then we developed the Practical Tokenized Drafting (PTD) method, a set of core principles and practices for drafting Ricardian Contracts that interact with Web3 technologies (RC-Web3 Templates), and the Tokenized Music License (TML), an RC-Web3 Template standard form for music licensing on the OpenLaw platform. Both the PTD and TML can be adapted to meet the needs of music industry stakeholders and provide guidance to legal practitioners in drafting RC-Web3 Templates.

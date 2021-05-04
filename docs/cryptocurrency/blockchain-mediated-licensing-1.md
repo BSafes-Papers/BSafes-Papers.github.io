@@ -34,4 +34,43 @@ nav_order: 10
 
 </style>
 
+<div class="dont-break-out" markdown="1">
+
+1. TOC
+{:toc}
+
+## Introduction
+Blockchain technology has been hailed as a revolutionary technology that will change the music industry, especially in regards to aiding musicians gain more autonomy and faster royalty payments.<sup>3</sup> A plethora of projects are trying to utilize blockchain to turn these ideated cost-savings into a reality.<sup>4</sup> However, there are many challenges that must be overcome before the music industry will adopt blockchain technology.<sup>5</sup>
+
+In our  first report on blockchain use cases in the music industry, *A Preliminary Review of Blockchain in the Music Industry*, we reviewed why the  first wave of disruption from file sharing in the music industry did not lead to musicians having greater autonomy, the major stakeholders and issues in the music industry, blockchain projects and pioneers in the music industry, blockchain use cases and challenges ahead for blockchain projects and pioneers to overcome before the music industry will adopt blockchain.<sup>6</sup> 
+
+In this report, we attempted to tackle some of the issues we identified in our  first report.<sup>7</sup> Specifically, we sought to tackle issues regarding musician attribution and autonomy, accuracy and speed of royalty payments, the complex web of the music industry, and the international legal frameworks governing copyright in musical works.<sup>8</sup> In tackling these issues, we honed in on practical applications for automating, wholly or partially, the music licensing process with Web3 technologies. 
+
+Our contributions in this report are four-fold. Firstly, we developed the Practical Tokenized Drafting (PTD) method, a set of core principles and practices for developing Ricardian Contracts that interact with Web3 Technologies (RC-Web3 Templates). Secondly, we developed the Tokenized Music License (TML), an RC-Web3 Template standard form for music licensing in a Web3 technologies context on the OpenLaw platform. Thirdly, we scoped literature from various areas and disciplines to understand the intersection of music complexity and Web3 technologies, and how it would affect efforts to develop an automated music license. Lastly, we reviewed the licensing options available to musicians and other creatives on decentralized media platforms and determined that there is a need for greater licensing options. 
+
+The remainder of this report is as follows: Part I provides a literature review that scopes academic and gray literature (which is heavily present in the blockchain literature) at the intersection of music complexity and Web3 technologies, a brief introduction to relevant supply chain and work registration standards, the legal frameworks applicable to music licenses, and the business of the music industry, a legal frameworks primer, a music licensing primer, and a technology primer. Part 2 provides a review of decentralized media platforms, the methods for developing the PTD and TML, and a discussion on how we designed the TML to address issues identified in Part I. Lastly, a short conclusion.
+
+***
+<sup>3</sup>Ledgerback Co-operative. "A Preliminary Review of Blockchain in the Music Industry". en. In: SSRN Electronic Journal (2018). issn: 1556-5068. doi: 10.2139/ssrn.3280838. url: https://www.ssrn.com/abstract=3280838 (visited on 12/17/2019).
+{: fs-2}
+<sup>4</sup>Ibid.
+{: fs-2}
+<sup>5</sup>Ibid.
+{: fs-2}
+<sup>6</sup>Ibid.
+{: fs-2}
+<sup>7</sup>Ibid.
+{: fs-2}
+<sup>8</sup>Ibid.
+{: fs-2}
+***
+
+***
+
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-1/">Introduction</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-2/">Part I)Background Research &gt; 1)Literature Review &gt; 1.1) Scoping Review</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-3/">1.2 Research Questions</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-4/">1.3 Report Structure</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-5/">1.4 Research Methodology</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-6/">1.5 Music Business Perspective</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-7/">1.6 Legal Perspective</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-8/">1.7 Automation Perspective</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-9/">1.8 Value Web Perspective</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-20/">2) Music Industry Supply Chain and Work Registration Standards</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-30/">3) Legal Frameworks Primer</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-40/">4) Music Licensing Primer</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-50/">5) Technology Primer</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-60/">Part II) Ricardian Contract &gt; 6) Motivation</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-70/">7) Decentralized Media Platforms</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-80/">8) Methods</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-90/">9) Discussion</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-100/">Conclusion</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-110/">References</a></li><li> <a href="http://localhost:4000/docs/cryptocurrency/blockchain-mediated-licensing-120/">Appendix</a></li></ul>
+
+***
 </div>
