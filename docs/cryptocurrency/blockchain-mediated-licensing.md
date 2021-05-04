@@ -41,7 +41,7 @@ This is the mobile-friendly web version of the [original article](https://papers
 
 # Blockchain-mediated Licensing 
 {: .no_toc }
-## Legal\ Engineering\ for\ Artist\ Empowerment
+## Legal Engineering for Artist Empowerment
 {: .no_toc }
 
 ## Contributors: Charles Adjovu; Ewa Fabian
