@@ -178,6 +178,193 @@ Automating legal prose raises serious issues concerning how to translate subject
 {: fs-2}
 ***
 
+<table cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td valign="top"><strong>Provision</strong>
+				<br>
+			</td>
+			<td style="width: 12.7273%;" valign="top"><strong>Difficulty</strong>
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="top"><strong>Reasoning</strong>
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle">Royalties
+				<br>
+			</td>
+			<td style="width: 12.7273%;" valign="middle">Easy to Medium
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="top">
+
+				<p align="justify">Royalties are generally quantitative in nature, and can be easily computed from the outset, including payment splits.</p>
+
+				<p align="justify">Recurring payments can be done as well.</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle">Accounting
+				<br>
+			</td>
+			<td style="width: 12.7273%;" valign="middle">Easy to medium
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="top">
+
+				<p align="justify">The bulk of the accounting can be handled by the blockchain itself</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle">Party Information
+				<br>
+			</td>
+			<td style="width: 12.7273%;" valign="middle">Easy to Medium
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="top">
+
+				<p align="justify">Party information is generally ascertainable, each of the parties has a unique public address on the blockchain, and parties can verify personal information on the blockchain</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle">Notices
+				<br>
+			</td>
+			<td style="width: 12.7273%;" valign="middle">Easy to Medium
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="top">
+
+				<p align="justify">Notices can easily be sent via a transaction between the parties, such as signing a message and giving the hash to the counterparty</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle">Reporting
+				<br>
+			</td>
+			<td style="width: 12.7273%;" valign="middle">Easy to Medium
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="top">
+
+				<p align="justify">Reporting can be handled on-chain by utilizing a block explorer to track the number of uses by a public address</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle">Grant
+				<br>
+			</td>
+			<td style="width: 12.7273%;" valign="middle">Medium to Hard
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="top">
+
+				<p align="justify">Grant conversion can be handled by tokenizing copyright and licenses. However, difficulty may arise if the grant language contains subjective (or requiring o -chain interaction) terms.</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle">Dispute Resolution
+				<br>
+			</td>
+			<td style="width: 12.7273%;" valign="middle">Medium to Hard
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="top">
+
+				<p align="justify">Dispute resolution may occur online or &nbsp;offline. If offline, then it becomes harder to resolve because the parties may not know each other and if a dispute gets sent to a court of competent jurisdiction.</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle">Remedies
+				<br>
+			</td>
+			<td style="width: 12.7273%;" valign="middle">Medium to Hard
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="top">
+
+				<p align="justify">Equitable remedies will be hard to enforce unless the dispute can be resolved on-chain. Certain remedies may also be unavailable depending on the jurisdictions of the parties. Liquidated Damages, Penalties, and other Fines are easier to implement because they are computed at the time of contracting.</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle">Choice of Law
+				<br>
+			</td>
+			<td style="width: 12.7273%;" valign="middle">Easy to Medium
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="top">
+
+				<p align="justify">Choice of Law can be explicitly stated in the Ricardian contract.</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">
+
+				<p align="justify">Representations, Warranties &amp; Indemnification</p>
+			</td>
+			<td style="width: 12.7273%;" valign="middle">Medium to Hard
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="middle">
+
+				<p align="justify">RWI is hard to enforce because of the pseudonymity of the parties, and the potentially large cost of conducting a background check on the parties.</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle">Termination
+				<br>
+			</td>
+			<td style="width: 12.7273%;" valign="middle">Easy to Medium
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="top">
+
+				<p align="justify">Termination can be handled on-chain by codifying the termination events into the smart contract. By doing so, the smart contract will not be removed from the blockchain, but it will for all intents and purposes become inactive. Additionally, the cause for termination may be disputed through on-chain or online dispute resolution.</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle">Signatures
+				<br>
+			</td>
+			<td style="width: 12.7273%;" valign="middle">Medium to Hard
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="top">
+
+				<p align="justify">Signatures can easily be handled with cryptographic signatures and public key infrastructure. However, the signature may not be valid under a jurisdiction&rsquo;s electronic signature laws and issues arise concerning the identity of the signatories.</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle">Identity
+				<br>
+			</td>
+			<td style="width: 12.7273%;" valign="middle">Medium to Hard
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="top">
+
+				<p align="justify">The identity of the parties will be di cult to ascertain because blockchain public addresses are pseudonymous, unless the parties have made their identities known to each other. We expect the licensor (musician, rights holder, etc.) to make their identity public, while not requiring the counterparty to make their identity public because of the cost of KYC procedures.</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="middle">Additional Agreements
+				<br>
+			</td>
+			<td style="width: 12.7273%;" valign="middle">Medium to Hard
+				<br>
+			</td>
+			<td style="width: 62.3636%;" valign="top">
+
+				<p align="justify">Having the parties enter into additional agreements can be codified in the smart contract but faces follow-on intent complications as described by Giancaspro.<sup>977</sup></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
 Given some of the headaches of translating prose to software, we believe a middle ground approach such as a contract management platform that offers functionality with blockchain and other Web3 technologies (e.g., OpenLaw) would be the one of the best approaches for increasing adoption of Web3 technologies among legal professionals and music industry stakeholders.<sup>978</sup> Additionally, if the contract management platform allows the contracts made on the platform to integrate with DApps (built with smart contracts), then it becomes easier for musicians, other music industry stakeholders, and smart contract developers to build DApps using contracts that are legally-compliant while achieving transaction cost savings<sup>979</sup>
 
 ### 8.3 Automated Music License Methods

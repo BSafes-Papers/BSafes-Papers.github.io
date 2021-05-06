@@ -154,6 +154,50 @@ We categorized the papers we found into the following categories:
 
 The categories are summarized in the table below and are used as headings for the remainder of Part I
 
+<table cellpadding="0" cellspacing="0">
+	<tbody>
+		<tr>
+			<td valign="top"><strong>Perspective</strong>
+				<br>
+			</td>
+			<td valign="top"><strong>Subarea</strong>
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">Legal Perspective
+				<br>
+			</td>
+			<td valign="top">Contract Law Intellectual Property Law Electronic Signatures Evidence
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">Music Business Perspective
+				<br>
+			</td>
+			<td valign="top">Supply Chain Transformation Benefits and Drawbacks
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">Automation Perspective
+				<br>
+			</td>
+			<td valign="top">Smart Contracts Metadata Semantic Web Ricardian Contract
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top">Value Web Perspective
+				<br>
+			</td>
+			<td valign="top">Music Industry Value Web
+				<br>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 
 The music business perspective focuses on how Web3 technologies (with a specific emphasis on blockchain and smart contracts) will impact the business of the music industry. The legal perspective focuses on how Web3 technologies interacts (concerns, considerations, impacts, etc.) with legal frameworks applicable to music licensing. The automation perspective focuses on understanding Web3 technologies (with an emphasis on blockchain and smart contracts) and approaches for automating music licensing with Web3 technologies. The value web perspective focuses on understanding the interconnected web of stakeholders in the music industry and how value is created, distributed, and at times impeded by the very workings of the industry.
