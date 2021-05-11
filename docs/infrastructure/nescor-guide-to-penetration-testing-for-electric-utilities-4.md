@@ -297,7 +297,7 @@ The overarching goal for embedded device testing is to identify vulnerabilities 
 
 Figure 4a below shows the overall process flow of the task sub-categories in this section. The figure shows the three task sub-categories may be performed in parallel. As in previous diagrams in this document, the colors represent the recommended likelihood that a utility should consider performing these task sub-categories, and the relative level of expertise required.
 
-
+![Figure 4a: Embedded Device Subcategory Flow](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-4a.png)
 Figure 4a: Embedded Device Subcategory Flow
 
 Each subcategory below includes a similar diagram depicting the process flow and recommended likelihood to perform each task.
@@ -478,7 +478,7 @@ This subcategory of penetration tasks focuses on the identification design weakn
 
 Figure 4.1a shows a typical task flow for analyzing electronic components.
 
-
+![Figure 4.1a shows a typical task flow for analyzing electronic components.](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-4-1a.png)
 Figure 4.1a: Electronic Component Analysis Task Flow
 
 
@@ -675,6 +675,7 @@ Most embedded devices provide physical interfaces for local configuration and de
 
 This subcategory of penetration tasks focuses on the analysis and identification of vulnerabilities in these interfaces. Figure 4.2a shows a typical task flow for testing field technician interfaces.
 
+![Figure 4.2a: Field Technician Device Task Flow](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-4-2a.png)
 Figure 4.2a: Field Technician Device Task Flow
 
 ### 4.2.1 Interface Functional Analysis
@@ -1003,6 +1004,7 @@ This subcategory of penetration tasks focuses on the identification of vulnerabi
 
 Figure 4.3a shows a typical task flow for analysing device firmware images in their binary format.
 
+![Figure 4.3a: Firmware Binary Analysis Task Flow](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-4-3a.png)
 Figure 4.3a: Firmware Binary Analysis Task Flow
 
 This subcategory of penetration tasks assumes the firmware was obtained in previous tasks or provided directly to the tester.
@@ -1030,5 +1032,13 @@ This subcategory of penetration tasks assumes the firmware was obtained in previ
 ***Task Description:*** Based on the findings from previous steps, determine feasible attacks which can be launched at the firmware. For instance, cryptographic materials found in the firmware could be used to access protected networks and devices, or buffer overflow like attacks could be leveraged to run arbitrary code on remote devices. 
 
 ***Task Goal:*** Create proof of concept attacks to demonstrate the feasibility and business risk created by the discovered vulnerabilities.
+
+***
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-1/">1 Introduction</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-2/">2 Penetration Test Scoping</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-3/">3 Target System Setup</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-4/">4 Embedded Device Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-5/">5 Network Communications Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-6/">6 Server OS Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-7/">7 Server Application Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-8/">8 End-to-End Penetration Test Analysis</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-9/">9 Result Interpretation and Reporting</a></li></ul>
+
+***
 
 </div>

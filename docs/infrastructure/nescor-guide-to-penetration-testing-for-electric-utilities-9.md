@@ -38,4 +38,12 @@ The final report should, at a minimum, include the following sections:
 
 - Conclusion – a section similar to the executive summary but at a more technical depth summarizing the major findings and recommendations. This section should also discuss any major questions or goals of the assessment such as the team’s recommendations of a go no-go purchase of a product.
 
+***
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-1/">1 Introduction</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-2/">2 Penetration Test Scoping</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-3/">3 Target System Setup</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-4/">4 Embedded Device Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-5/">5 Network Communications Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-6/">6 Server OS Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-7/">7 Server Application Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-8/">8 End-to-End Penetration Test Analysis</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-9/">9 Result Interpretation and Reporting</a></li></ul>
+
+***
+
 </div>

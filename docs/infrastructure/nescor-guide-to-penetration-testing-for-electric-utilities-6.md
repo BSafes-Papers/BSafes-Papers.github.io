@@ -214,7 +214,7 @@ This section pertains to the testing of the operating system of the control serv
 
 Figure 6a below shows the overall process flow of the task sub-categories in this section. The figure shows the three task sub-categories must be performed in series. As in previous diagrams in this document, the colors represent the recommended likelihood that a utility should consider performing these task sub-categories, and the relative level of expertise required.
 
-
+![Figure 6a: Server OS Subcategory Flow](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-6a.png)
 Figure 6a: Server OS Subcategory Flow
 
 Each subcategory below will include a similar diagram depicting the process flow and recommended likelihood to perform for each task. 
@@ -226,6 +226,9 @@ Each subcategory below will include a similar diagram depicting the process flow
 - Guidance documents such as the Penetration Testing Standard (PTES)
 
 ### 6.1 Information Gathering
+
+![Figure 6.1a: OS Information Gathering Task Flow](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-6-1a.png)
+Figure 6.1a: OS Information Gathering Task Flow
 
 #### 6.1.1 DNS Interrogation
 
@@ -269,6 +272,7 @@ Each subcategory below will include a similar diagram depicting the process flow
 
 ### 6.2 Vulnerability Analysis
 
+![Figure 6.2a: OS Vulnerability Analysis Task Flow](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-6-2a.png)
 Figure 6.2a: OS Vulnerability Analysis Task Flow
 
 #### 6.2.1 Unauthenticated Vulnerability Scanning
@@ -305,6 +309,7 @@ Figure 6.2a: OS Vulnerability Analysis Task Flow
 
 ### 6.3 Server OS Exploitation
 
+![Figure 6.3a: Server OS Exploitation Task Flow](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-6-3a.png)
 Figure 6.3a: Server OS Exploitation Task Flow
 
 #### 6.3.1 Identify Attack Avenues
@@ -331,5 +336,12 @@ Figure 6.3a: Server OS Exploitation Task Flow
 
 ***Task Goal:*** Return the systems to their pre-assessment state.
 
+***
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-1/">1 Introduction</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-2/">2 Penetration Test Scoping</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-3/">3 Target System Setup</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-4/">4 Embedded Device Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-5/">5 Network Communications Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-6/">6 Server OS Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-7/">7 Server Application Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-8/">8 End-to-End Penetration Test Analysis</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-9/">9 Result Interpretation and Reporting</a></li></ul>
+
+***
 
 </div>

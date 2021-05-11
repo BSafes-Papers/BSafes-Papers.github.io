@@ -93,6 +93,7 @@ The penetration-testing tasks included in this document were created to be used 
 
 Figure 1 demonstrates how the following sections of this document interrelate to each other and when they are initiated in a typical penetration test. This diagram shows the overall process flow of a typical penetration test as described in this document. Each box represents a major section in this document and shows which sections need to be performed in serial and which sections can be performed in parallel.
 
+![Figure 2a: Typical Penetration Testing Process](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-2a.png)
 Figure 2a: Typical Penetration Testing Process
 
 All penetration tests should start with proper planning and scoping of the engagement. Once that is complete, the penetration testing tasks can be broken into the four distinct task categories displayed in Figure 2a. Each of these task categories also requires different skill sets from the testing team. If there is sufficient staff, these four penetration task categories can be performed in parallel. Once these tasks are completed, the team should perform a gap analysis to verify all desired tests have been performed and all goals met. Finally, the team should generate a report documenting their findings, interpret these findings in the context of the utility’s deployment, and develop recommendations to resolve or mitigate these vulnerabilities.
@@ -114,5 +115,13 @@ These colors are used in the diagrams presented in each major task category thro
 Each penetration task category in this document provides an overview of tasks that could be performed in any given penetration test. Penetration test planning should consider these lists of tasks and determine which tasks are appropriate to meet their desired goals of the penetration test. Some tests may include all tasks, other tests may only include tasks from one testing category, and other tests may include a small percentage of tasks from multiple testing categories. Any number of factors could drive these decisions, but the most common reasons for excluding a task from the assessment is budgetary restrictions, lack of applicability of a particular task, or unjustifiable risk to system or device. 
 
 Each test category lists the types of tools needed for the tasks in that category. This list should not be considered prescriptive or complete, but rather a short sampling of tools to help point testing teams in the right direction. The tools needed will vary between individual testers, systems being tested and will change over time. Needed tools should be determined and assembled before testing begins.
+
+***
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-1/">1 Introduction</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-2/">2 Penetration Test Scoping</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-3/">3 Target System Setup</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-4/">4 Embedded Device Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-5/">5 Network Communications Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-6/">6 Server OS Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-7/">7 Server Application Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-8/">8 End-to-End Penetration Test Analysis</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-9/">9 Result Interpretation and Reporting</a></li></ul>
+
+***
 
 </div>

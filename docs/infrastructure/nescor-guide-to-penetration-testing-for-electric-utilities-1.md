@@ -32,4 +32,11 @@ This document breaks the process of penetration testing into logical tasks. Thes
 
 Results of penetration testing tasks are not expected to be fully repeatable or comparable from one utility to another utility, or from one testing team to another testing team. While all vulnerabilities found by the penetration testing team should be repeatable and verifiable by other organizations when given details of the vulnerability, the results of each penetration test is highly dependent on the skill set of the testing team, and the discovery of those vulnerabilities will vary from testing team to testing team. Because of these factors, the results of these penetration-testing tasks are not intended to be used by regulatory bodies or shared outside of the utility, with the exception of sharing these results with the respective vendors to have the discovered vulnerabilities addressed.
 
+***
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-1/">1 Introduction</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-2/">2 Penetration Test Scoping</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-3/">3 Target System Setup</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-4/">4 Embedded Device Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-5/">5 Network Communications Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-6/">6 Server OS Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-7/">7 Server Application Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-8/">8 End-to-End Penetration Test Analysis</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-9/">9 Result Interpretation and Reporting</a></li></ul>
+
+***
 </div>

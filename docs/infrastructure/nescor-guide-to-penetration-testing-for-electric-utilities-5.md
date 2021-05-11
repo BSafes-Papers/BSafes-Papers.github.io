@@ -138,6 +138,7 @@ This section pertains to the testing of network communications for the smart gri
 
 Figure 5a below shows the overall process flow of the task sub-categories in this section. The figure shows the two task sub-categories may be performed in parallel. As in previous diagrams in this document, the colors represent the recommended likelihood that a utility should consider performing these task sub-categories, and the relative level of expertise required.
 
+![Figure 5a: Network Communications Subcategory Flow](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-5a.png)
 Figure 5a: Network Communications Subcategory Flow
 
 Each subcategory below includes a similar diagram depicting the process flow and recommended likelihood to perform for each task.
@@ -241,6 +242,7 @@ It is usually assumed that network traffic can be extracted from captured RF com
 </table>
 
 
+![Figure 5.1a: RF Packet Analysis Task Flow](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-5-1a.png)
 Figure 5.1a: RF Packet Analysis Task Flow
 
 5.1.1 RF Signal Capture 
@@ -409,7 +411,7 @@ This subcategory of penetration tasks focuses on analysis of network protocols a
 </table>
 
 
-
+![Figure 5.2a: Network Protocol Analysis Task Flow](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-5-2a.png)
 Figure 5.2a: Network Protocol Analysis Task Flow
 
 #### 5.2.1 Network Protocol Traffic Capture 
@@ -450,5 +452,13 @@ Figure 5.2a: Network Protocol Analysis Task Flow
 ***Task Description:*** Based on the findings from previous tasks, determine feasible attacks which can be launched on the field technician interface. For example, if devices are not required to authenticate themselves when joining a field area network, it may be possible to insert a ‘rogue’ node in the network or to harvest controlled devices away from their management server such as AMI headends or synchrophasor managers. Another example might be spoofing a firmware update or disconnect signal or perform an active MitM attack.
 
 ***Task Goal:*** Create proof of concept attacks to demonstrate the feasibility and business risk created by the discovered vulnerabilities.
+
+***
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-1/">1 Introduction</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-2/">2 Penetration Test Scoping</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-3/">3 Target System Setup</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-4/">4 Embedded Device Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-5/">5 Network Communications Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-6/">6 Server OS Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-7/">7 Server Application Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-8/">8 End-to-End Penetration Test Analysis</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-9/">9 Result Interpretation and Reporting</a></li></ul>
+
+***
 
 </div>

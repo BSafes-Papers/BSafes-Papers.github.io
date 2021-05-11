@@ -134,6 +134,7 @@ This section pertains to the testing of applications that are executing on the c
 
 Figure 7a below shows the overall process flow of the task sub-categories in this section. The figure shows the three task sub-categories must be performed in series. As in previous diagrams in this document, the colors represent the recommended likelihood that a utility should consider performing these task sub-categories, and the relative level of expertise required.
 
+![Figure 7a: Server Application Subcategory Flow](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-7a.png)
 Figure 7a: Server Application Subcategory Flow
 
 Each subcategory below will include a similar diagram depicting the process flow and recommended likelihood to perform for each task. 
@@ -146,6 +147,7 @@ Each subcategory below will include a similar diagram depicting the process flow
 
 This subcategory of penetration tasks focuses on the gathering of information and allows the tester to gain a firm understanding of the user interface or web service functionality and design.
 
+![Figure 7.1a: Application Mapping Task Flow](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-7-1a.png)
 Figure 7.1a: Application Mapping Task Flow
 
 #### 7.1.1 Application and Platform Fingerprinting
@@ -183,7 +185,7 @@ Figure 7.1a: Application Mapping Task Flow
 ### 7.2 Application Discovery
 This subcategory of penetration tasks focuses on the identification of vulnerabilities in the user interfaces or web services.
 
-
+![Figure 7.2a: Application Discovery Task Flow](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-7-2a.png)
 Figure 7.2a: Application Discovery Task Flow
 
 #### 7.2.1 Default Configuration Testing
@@ -253,6 +255,7 @@ Figure 7.2a: Application Discovery Task Flow
 ### 7.3 Application Exploitation
 This subset of penetration tasks focuses on the exploitation of vulnerabilities found in the previous tasks and the escalation of access the tester has in the application.
 
+![Figure 7.3a: Application Exploitation Task Flow](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-7-3a.png)
 Figure 7.3a: Application Exploitation Task Flow
 
 #### 7.3.1 Identify Attack Avenues 
@@ -279,5 +282,12 @@ Figure 7.3a: Application Exploitation Task Flow
 
 ***Task Goal:*** Return systems to their pre-assessment state.
 
+***
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-1/">1 Introduction</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-2/">2 Penetration Test Scoping</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-3/">3 Target System Setup</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-4/">4 Embedded Device Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-5/">5 Network Communications Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-6/">6 Server OS Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-7/">7 Server Application Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-8/">8 End-to-End Penetration Test Analysis</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-9/">9 Result Interpretation and Reporting</a></li></ul>
+
+***
 
 </div>

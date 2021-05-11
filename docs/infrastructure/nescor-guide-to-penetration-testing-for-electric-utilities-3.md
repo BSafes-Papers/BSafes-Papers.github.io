@@ -33,8 +33,10 @@ AMI systems should be setup to includes all components from the meter to the hea
 
 AMI systems have been architected in a variety of different approaches. Figure 3.1a depicts a number of the most common architectures, including intermediate devices and possible communication links between the meter and the headend. This diagram attempts to include all major architecture types commonly deployed, however this means only a portion of this diagram may pertain to a specific utility. Therefore, this common architecture should be customized and tailored for specific AMI systems depending on the deployed devices and communication protocols.
 
+![Figure 3.1a: Common AMI Architecture](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-3-1a.png)
 Figure 3.1a: Common AMI Architecture
 
+![Figure 3.1b: Typical AMI Dataflows](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-3-1b.png)
 Figure 3.1b: Typical AMI Dataflows
 
 Testers should be familiar with existing communication protocols that pass among different components within AMI infrastructures. Figure 3.1b depicts generic dataflows most AMI systems use in their communications between the headend and each meter.
@@ -48,6 +50,7 @@ Demand Response (DR) systems should be setup to include all components from the 
 
 DR systems can be architected in a variety of different approaches. Figure 3.2 depicts a number of the most common architectures, including intermediate devices and possible communication links between the gateway and the DRAS. This diagram attempts to include all major architecture types commonly deployed, however this means only a portion of this diagram may pertain to a specific utility. Therefore, this common architecture should be customized and tailored for specific DR systems depending on the deployed components and communication paths.
 
+![Figure 3.2a: Common DR Architecture](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-3-2a.png)
 Figure 3.2a: Common DR Architecture
 
 ### 3.3 Distributed Energy Resources (DER)
@@ -57,6 +60,8 @@ DER systems should be setup to includes all components from the DER Generation a
 
 DER systems can be architected in a variety of different approaches. Figure 3.3a depicts a number of the most common architectures. This diagram includes examples of various DER managed devices commonly deployed, however this means only a portion of this diagram may pertain to a specific utility. Therefore, this common architecture should be customized and tailored for specific DER systems depending on the deployed components and communication paths.
 
+
+![Figure 3.3a: Typical DER Architecture](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-3-3a.png)
 Figure 3.3a: Typical DER Architecture
 
 ### 3.4 Distribution Grid Management (DGM)
@@ -64,6 +69,7 @@ Distribution Grid Management (DGM) systems manage a wide array of sub-systems in
 
 The following diagram shows a sample of various devices in a substation that can be monitored and controlled by DGM systems.
 
+![Figure 3.4a: Typical DGM Controlled Substation Network](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-3-4a.png)
 Figure 3.4a: Typical DGM Controlled Substation Network
 
 #### 3.5 Electric Transportation (ET)
@@ -71,6 +77,7 @@ Electric Transportation (ET) systems should be setup to include all components f
 
 ET systems can be architected in a variety of different approaches. Figure 3.5 depicts a number of the most common architectures, including intermediate devices and possible communication links between the EVSE and the EV management server. This diagram attempts to include all major architecture types commonly deployed, however this means only a portion of this diagram may pertain to a specific utility. Therefore, this common architecture should be customized and tailored for specific ET systems depending on the deployed components and communication paths.
 
+![Figure 3.5a: Common ET Architecture](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-3-5a.png)
 Figure 3.5a: Common ET Architecture
 
 ### 3.6 Wide Area Monitoring, Protection, and Control (WAMPAC)
@@ -78,6 +85,15 @@ WAMPAC systems often center around synchrophasor technology and the devices that
 
 WAMPAC systems can be architected in a variety of different approaches. Figure 3.6a depicts a number of the most common architectures, including intermediate devices and possible communication links between the syncrophasor and its dependent applications. This diagram attempts to include all major architecture types commonly deployed, however this means only a portion of this diagram may pertain to a specific utility. Therefore, this common architecture should be customized and tailored for specific WAMPAC systems depending on the deployed components and communication paths.
 
+![Figure 3.6a: Common WAMPAC Architecture](https://statics.bsafes.com/images/papers/nescor-guide-to-penetration-testing-for-electric-utilities-fig-3-6a.png)
 Figure 3.6a: Common WAMPAC Architecture
+
+***
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-1/">1 Introduction</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-2/">2 Penetration Test Scoping</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-3/">3 Target System Setup</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-4/">4 Embedded Device Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-5/">5 Network Communications Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-6/">6 Server OS Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-7/">7 Server Application Penetration Tasks</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-8/">8 End-to-End Penetration Test Analysis</a></li><li> <a href="/docs/infrastructure/nescor-guide-to-penetration-testing-for-electric-utilities-9/">9 Result Interpretation and Reporting</a></li></ul>
+
+***
 
 </div>
