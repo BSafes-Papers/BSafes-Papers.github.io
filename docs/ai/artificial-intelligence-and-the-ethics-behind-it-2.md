@@ -62,6 +62,7 @@ A way to help visualize the definition above is to look at image recognition, on
 ### Neural Networks
 Deep learning makes use of neural networks. Figure 1 helps show where neural networks sit within the scope of artificial intelligence. Neural networks are designed to mimic the way a human's brain works, and they consist of four components: inputs, weights, bias, and output [3]. IBM provides the following formula and similar examples to help explain neural networks.
 
+![Figure 1- Breakdown of fields within artificial intelligence](https://statics.bsafes.com/images/papers/artificial-intelligence-and-the-ethics-behind-it-fig-1.png)
 
 Imagine an individual is considering whether to buy a gym membership. There are three factors to consider: 
 
