@@ -52,4 +52,14 @@ The issues of artificial intelligence and data privacy run parallel to each othe
 
 In the same manner, social media platforms keep track of all of its users’ data and are able to use that data to hyper-target ads to users. This can influence the user's purchases more than they realize. The EU has taken steps to implement user privacy. One study found "display advertising became far less effective at changing stated purchase intent after the EU laws were enacted, relative to display advertising in other countries" [33]. Social users need to decide how much information they are willing to give up to use social media and other resources for free. To make sure that tech giants are not taking advantage of consumers, there also needs to be regulations established concerning the use of individuals’ data and integration with AI-led marketing.
 
+***
+
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-1/">Introduction</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-2/">What is Artificial Intelligence</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-3/">How Artificial Intelligence Is Used Today</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-4/">Benefits of Artificial Intelligence</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-5/">Artificial Intelligence and the Ethics Driving It</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-6/">Social Media – A Doppelganger in the Cloud</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-7/">The Future of AI</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-8/">Conclusion</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-9/">References</a></li></ul>
+
+***
+
+
 </div>

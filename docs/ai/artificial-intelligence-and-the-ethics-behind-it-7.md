@@ -72,4 +72,14 @@ Byron Johnson highlighted the fact that by using AI for repetitive and minuscule
 ### AI’s Roadmap
 Artificial intelligence has proven its benefits along with its ethical issues. It has already brought many benefits in health care, transportation, the environment, criminal justice, and economic inclusion [35]. Although it is impossible to predict the future, from the trend of AI, it appears that AI will continue to grow. As people become more aware of how AI can invade their privacy, they may change their minds. However, many people are willing to trade-off privacy for convenience. Michael Roberts, CEO of ICANN, suggests- "The record to date is that convenience overwhelms privacy. I suspect that will continue" [34].
 
+***
+
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-1/">Introduction</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-2/">What is Artificial Intelligence</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-3/">How Artificial Intelligence Is Used Today</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-4/">Benefits of Artificial Intelligence</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-5/">Artificial Intelligence and the Ethics Driving It</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-6/">Social Media – A Doppelganger in the Cloud</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-7/">The Future of AI</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-8/">Conclusion</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-9/">References</a></li></ul>
+
+***
+
+
 </div>
