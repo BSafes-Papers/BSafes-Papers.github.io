@@ -79,6 +79,7 @@ Assistant Honors Director
 1. TOC
 {:toc}
 
+## Abstract
 Artificial intelligence (AI) has been a widely used buzzword for the past couple of years. If there is a technology that works without human interaction, it is labeled as AI. But what is AI, and should individuals be concerned? The following research aims to define what artificial intelligence is, specifically machine learning (ML) and neural networks. It is important to understand how AI is used today in cars, image recognition, ad marketing, and other areas. Although AI has many benefits, there are areas of ethical concerns such as autonomous cars, military applications, social media marketing, and others. This paper helps define the benefits of AI and the ethical issues.
 
 </div>
