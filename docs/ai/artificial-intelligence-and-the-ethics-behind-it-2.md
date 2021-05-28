@@ -81,4 +81,13 @@ Weights must be assigned to the three options above to help clarify which ones a
 
 The bias provides an adjustable value by which the equation can be changed to best fit the data model [4]. If the input above is plugged into the equation, the output is one. This indicates that the individual should buy a gym membership. In the same manner that the above data can be calculated, neural networks plug-in image data to classify the image. The above is meant to serve as a basic understanding of how artificial intelligence works. Although neural networks are not used within every type of AI, they are still widely used. Different areas of where AI is applied are outlined in the next section. The above definitions and examples are used to help illustrate how AI might possibly work within different applications.
 
+***
+
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-1/">Introduction</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-2/">What is Artificial Intelligence</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-3/">How Artificial Intelligence Is Used Today</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-4/">Benefits of Artificial Intelligence</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-5/">Artificial Intelligence and the Ethics Driving It</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-6/">Social Media – A Doppelganger in the Cloud</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-7/">Conclusion</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-8/">References</a></li></ul>
+
+***
+
 </div>

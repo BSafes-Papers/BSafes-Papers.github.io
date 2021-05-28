@@ -88,4 +88,13 @@ These scenarios must be pondered and debated regarding whether it is appropriate
 
 To ensure that individuals are treated equally, regulations need to be established for scenarios like those previously mentioned. The IEEE is a group of like-minded technologists that partake in research and development. The members of this group commit themselves "to treat fairly all persons and to not engage in acts of discrimination based on race, religion, gender, disability, age, national origin, sexual orientation, gender identity, or gender expression" [29, 30]. Programming a vehicle to kill based upon the above scenarios would go against the fundamentals of the United States. A possible solution to this issue is to require human intervention in situations where an occupant or nearby individuals could potentially be killed. If an algorithm is given a choice on who to kill, the response would be consistent and predictable. Is predictable the correct option? Either way, the future of autonomous cars requires more discussion to produce a community of developers that value life regardless of who a person is.
 
+***
+
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-1/">Introduction</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-2/">What is Artificial Intelligence</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-3/">How Artificial Intelligence Is Used Today</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-4/">Benefits of Artificial Intelligence</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-5/">Artificial Intelligence and the Ethics Driving It</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-6/">Social Media – A Doppelganger in the Cloud</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-7/">Conclusion</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-8/">References</a></li></ul>
+
+***
+
 </div>

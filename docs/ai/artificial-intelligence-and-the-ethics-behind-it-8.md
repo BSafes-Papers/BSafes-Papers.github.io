@@ -110,4 +110,13 @@ nav_order: 80
 
 1. A. Bundy, Preparing for the future of Artificial Intelligence.* AI & Society* vol. 32, pp. 285– 287, 2017, doi: 10.1007/s00146-016-0685-0.
 
+***
+
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-1/">Introduction</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-2/">What is Artificial Intelligence</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-3/">How Artificial Intelligence Is Used Today</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-4/">Benefits of Artificial Intelligence</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-5/">Artificial Intelligence and the Ethics Driving It</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-6/">Social Media – A Doppelganger in the Cloud</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-7/">Conclusion</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-8/">References</a></li></ul>
+
+***
+
 </div>

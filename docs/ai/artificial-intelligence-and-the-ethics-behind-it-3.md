@@ -63,4 +63,13 @@ As more and more ratings are given, the data model becomes larger. As the data m
 ### AI and Ethics
 The five examples of artificial intelligence above, face recognition, voice assistants, selfdriving cars, social media, and user recommendations, are all relevant examples of how AI is being used today. Although there are many other uses of AI, the five above will constitute the main discussion of the ethics behind AI. Each presents its own problems regarding security, privacy, moral behavior, and of course, ethics.
 
+***
+
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-1/">Introduction</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-2/">What is Artificial Intelligence</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-3/">How Artificial Intelligence Is Used Today</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-4/">Benefits of Artificial Intelligence</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-5/">Artificial Intelligence and the Ethics Driving It</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-6/">Social Media – A Doppelganger in the Cloud</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-7/">Conclusion</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-8/">References</a></li></ul>
+
+***
+
 </div>

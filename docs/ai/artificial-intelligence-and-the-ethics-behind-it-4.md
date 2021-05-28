@@ -66,4 +66,13 @@ It is no surprise to see that opioid abuse is happening across cities in the Uni
 ### Summarized Benefits
 If it is not clear, the above cases help show that artificial intelligence and its subsets have many benefits when implemented correctly. There are concerns, though, with how heavily artificial intelligence is applied. Will unmanned drones kill innocent civilians without human input? Should the government be able to implement face recognition to track citizens? Should an autonomous car hit a pedestrian on a sidewalk to avoid an accident on the road? These are all questions that must be asked when looking at artificial intelligence and the ethics behind it.
 
+***
+
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-1/">Introduction</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-2/">What is Artificial Intelligence</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-3/">How Artificial Intelligence Is Used Today</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-4/">Benefits of Artificial Intelligence</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-5/">Artificial Intelligence and the Ethics Driving It</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-6/">Social Media – A Doppelganger in the Cloud</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-7/">Conclusion</a></li><li> <a href="/docs/ai/artificial-intelligence-and-the-ethics-behind-it-8/">References</a></li></ul>
+
+***
+
 </div>
