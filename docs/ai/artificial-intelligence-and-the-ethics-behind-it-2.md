@@ -70,15 +70,15 @@ Imagine an individual is considering whether to buy a gym membership. There are 
 1. Will it save money? Yes[1]/No[0]
 1. Will it help the individual lose weight? Yes[1]/No[0]
 
->𝑥<sub>1</sub>= 1, exercising leads to a healthy lifestyle
->𝑥<sub>2</sub> = 0, gym memberships are expensive, and it would be cheaper to work out at home
->𝑥<sub>3</sub> = 1, exercising can reduce an individual's weight
+>𝑥<sub>1</sub>= 1, exercising leads to a healthy lifestyle  
+>𝑥<sub>2</sub> = 0, gym memberships are expensive, and it would be cheaper to work out at home  
+>𝑥<sub>3</sub> = 1, exercising can reduce an individual's weight  
 
 Weights must be assigned to the three options above to help clarify which ones are most important.
 
->𝑤<sub>1</sub> = 5; individual’s desire to be in shape
->𝑤<sub>2</sub> = 3, individual has a good job but is saving for a new car
->𝑤<sub>3</sub> = 2, individual wants to lose weight but not necessarily the most important 
+>𝑤<sub>1</sub> = 5; individual’s desire to be in shape  
+>𝑤<sub>2</sub> = 3, individual has a good job but is saving for a new car  
+>𝑤<sub>3</sub> = 2, individual wants to lose weight but not necessarily the most important   
 
 The bias provides an adjustable value by which the equation can be changed to best fit the data model [4]. If the input above is plugged into the equation, the output is one. This indicates that the individual should buy a gym membership. In the same manner that the above data can be calculated, neural networks plug-in image data to classify the image. The above is meant to serve as a basic understanding of how artificial intelligence works. Although neural networks are not used within every type of AI, they are still widely used. Different areas of where AI is applied are outlined in the next section. The above definitions and examples are used to help illustrate how AI might possibly work within different applications.
 
