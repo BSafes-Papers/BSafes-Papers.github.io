@@ -133,4 +133,13 @@ Tunney, C., Cooney, P., Coyle, D., & O'Reilly, G. (2017). Comparing young people
 
 Yoon, G., Duff, B. R. L., & Bunker, M. P. (2021) Sensation seeking, media multitasking, and social Facebook use.* Social Behavior & Personality: An International Journal, 49*(1), 1-7. https://doi.org/10.2224/sbp.8918
 
+***
+
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/social-media/media-consumption-effect-on-therapuetic-aesthetics-1/">Literature Review</a></li><li> <a href="/docs/social-media/media-consumption-effect-on-therapuetic-aesthetics-2/">Discussion</a></li></ul>
+
+***
+
 </div>

@@ -138,4 +138,13 @@ The literature review found mindfulness as a key intervention which inspired fur
 
 The study creates an assessment tool for future research on the variables under scope within this thesis. There is a strong correlation between mindfulness and the expressive arts therapies within the literature (Daly, 2019; LaCreta, 2018; Piper, 2019). The connections between the inherit mindfulness of expressive art therapy highlight avenues for further research and interventions.
 
+***
+
+#### Table of Contents
+{: .no_toc}
+
+<ul><li> <a href="/docs/social-media/media-consumption-effect-on-therapuetic-aesthetics-1/">Literature Review</a></li><li> <a href="/docs/social-media/media-consumption-effect-on-therapuetic-aesthetics-2/">Discussion</a></li></ul>
+
+***
+
 </div>
