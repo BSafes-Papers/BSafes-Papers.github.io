@@ -36,7 +36,7 @@ nav_order: 9790900
 
 <div class="dont-break-out" markdown="1">
 This is the mobile-friendly web version of the [original article](https://stars.library.ucf.edu/cgi/viewcontent.cgi?article=2018&context=honorstheses).
-# Grief is love with nowhere to go
+# Dating App Facilitated Sexual Violence: The Prevalence and Mental Health Effects 
 {: .no_toc }
 
 ### University of Central Florida 
