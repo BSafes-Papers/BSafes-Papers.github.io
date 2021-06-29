@@ -48,7 +48,7 @@ Expressive Therapies Capstone Theses, Graduate School of Arts and Social Science
 
 ***
 
-May 4, 2021
+May 4, 2021  
 Tatiana Miranda Orama   
 Art Therapy  
 Carla Velázquez García  
