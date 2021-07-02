@@ -1,6 +1,6 @@
 ---
 layout: default
-title: § PREVENTATIVE STEPS SOCI TIVE STEPS SOCIAL NETWORKS, SUCH AS WORKS, SUCH AS FACEBOOK, TAKE AGAINST SEX TRAFFICKING  
+title: § PREVENTATIVE STEPS SOCIAL NETWORKS, SUCH AS FACEBOOK, TAKE AGAINST SEX TRAFFICKING  
 parent: Social Media 
 has_children: true
 nav_order: 9800000
@@ -36,7 +36,7 @@ nav_order: 9800000
 
 <div class="dont-break-out" markdown="1">
 This is the mobile-friendly web version of the [original article](https://opensiuc.lib.siu.edu/cgi/viewcontent.cgi?article=2368&context=gs_rp).
-# PREVENTATIVE STEPS SOCI TIVE STEPS SOCIAL NETWORKS, SUCH AS WORKS, SUCH AS FACEBOOK, TAKE AGAINST SEX TRAFFICKING 
+# PREVENTATIVE STEPS SOCIAL NETWORKS, SUCH AS FACEBOOK, TAKE AGAINST SEX TRAFFICKING 
 {: .no_toc }
 
 ### Southern Illinois University Carbondale
