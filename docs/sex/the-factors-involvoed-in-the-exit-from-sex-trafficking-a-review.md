@@ -1,6 +1,6 @@
 ---
 layout: default
-title: § The Factors Involved in the Exit from Sex Traffifficking - A Review 
+title: § The Factors Involved in the Exit from Sex Trafficking - A Review 
 parent: Sex 
 has_children: true
 nav_order: 9790600
@@ -36,7 +36,7 @@ nav_order: 9790600
 
 <div class="dont-break-out" markdown="1">
 This is the mobile-friendly web version of the [original article](https://vc.bridgew.edu/cgi/viewcontent.cgi?article=2448&context=jiws).
-# The Factors Involved in the Exit from Sex Traffifficking: A Review 
+# The Factors Involved in the Exit from Sex Trafficking: A Review 
 {: .no_toc }
 
 ### Journal of International Women's Studies 
