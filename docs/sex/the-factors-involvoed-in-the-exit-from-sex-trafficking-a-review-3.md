@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Methods
-parent: § The Factors Involved in the Exit from Sex Traffifficking - A Review
+parent: § The Factors Involved in the Exit from Sex Trafficking - A Review 
 grand_parent: Sex
 nav_order: 30 
 ---
